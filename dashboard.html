@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family-Raleway:400,800" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+
+<!--the manu which is hidden-->
+<div id="hidden" class="menu"   >
+        <section class="hero" id="hero" >     
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 white-color headerlogo" >
+                        <img src="assets/logos/whitelitecure.png" class="top-logo" width="144px" height="52px" alt="companion">
+                    </div>
+                    <div class=" col-sm-12 col-md-7 text-right pl-3  pt-5 logo" >
+                        <div class="close-button" onclick="hidey()">
+                            close
+                            <div class="close-div"> 
+                                <i class="fa fa-close" ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  mt-5">
+                    <div class="col-sm-9 white-color secondnav text-left pb-4 pt-2">
+                        <div class="row">
+                            <div class="evidence-menu" data-show="fade-1">evidence</div>
+                            <div class="ml-6 fade-1">publications</div>
+                            <div class="ml-4 fade-1" >advisory board</div>
+                            <div class="ml-4 fade-1">ongoing research</div>
+                        </div>
+                        <div class="row">
+                           <div class="education-menu"  data-show="fade-2"> education</div>
+                           <div class="ml-6 fade-2">Litecure Academy</div>
+                           <div class="ml-4 fade-2">live education</div>
+                           <div class="ml-4 fade-2">webinars &amp; resources</div>
+                        </div>
+                        <div class="row">
+                           <div class="partner-menu" data-show="fade-3">partnership</div>
+                           <div class="ml-6 fade-3">stories</div>
+                           <div class="ml-4 fade-3">team members</div>
+                           <div class="ml-4 fade-3">employees</div>
+                        </div> 
+                    </div>
+                    <div class="col-sm-3  pr-4 main-icon  text-center pt-3">
+                        <div  class="icons-1 pt-3  pb-3">
+                            <div><i class="fa fa-search fa-1x white-color" ></i></div>
+                            <div><i class="fa fa-user fa-1x white-color" ></i></div>
+                            <div><i class="fa fa-envelope fa-1x white-color" ></i></div>
+                            <div><i class="fa fa-phone fa-1x white-color" ></i></div>        
+                            <div><i class="fa fa-globe fa-1x white-color " ></i></div>        
+                        </div>
+                        <div class="caption-icons-1 pt-3  pb-3" style="display:none;">
+                            <div class="search-nav">
+                                <input type="text" placeholder="TYPE SEARCH">
+                                <i class="fa fa-search fa-2x " ></i>
+                            </div>
+                            <div class="search-nav">
+                                <p>MY ACCOUNT</p>
+                                <i class="fa fa-user fa-2x " ></i>
+                            </div>
+                            <div class="search-nav">
+                                <p>LIVE CHAT</p>
+                                <i class="fa fa-envelope fa-2x " ></i>
+                            </div>
+                            <div class="search-nav">
+                                <p>CALL US</p>
+                                <i class="fa fa-phone fa-2x " ></i>
+                            </div>
+                            <div class="search-nav">
+                                <p>FR &nbsp; DE &nbsp; ES</p>
+                                <i class="fa fa-globe fa-2x " ></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row mt-6 white-color" ><img src='assets/logos/liteCurelogo.png' width="144px" height="52px" alt="companion"></div>
+                <div class="row mt-5">
+                    <div class="col-5 secondnav1  text-left">
+                        <div class="row white-color">companion products</div>
+                        <div class="row">companion animal health</div>
+                        <div class="row">employment</div>
+                        <div class="row">blog</div>
+                        <div class="row">support</div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <!--the empty red -->
+        <section class="bgcolor">
+            <div class="container">
+            <div class="row">
+                <div class="col-12 bgcolor "></div>
+            </div>
+            </div>
+        </section>
+        <div class="bottom-down"></div>
+    </div>
+<!--the section which is hidden -->
+<!--this the main header dog and girl wala section -->
+    
+<div id="showen"  >
+<section class="hero" id="hero">     
+    <div class="container">
+        <div class="row row1">
+            <div class="col-4 white-color headerlogo" >
+                <img src="assets/logos/logos1.png" width="144px" height="52px" alt="companionlogo">
+            </div>
+            <div class="col-8 text-right pl-5 headerlogo1"><p class="logo text-right">ACCOUNT</p></div>
+        </div>
+        <div class="row    pr-5">
+            <div class="row2  offset-8 col-4">
+                <P class="pb-3">TUES</P>
+                <span class="pr-2 pl-4">9:00</span>
+                <P class="pb-3">AM<br>EST</P>
+            </div>
+        </div>
+        <div class="row pt-5 pb-4  pl-4">
+            <div class="row3 container   col-8">
+                <p class="text-left larger-text" >
+                    Michelle Vargas
+                </p>
+            </div>
+            <div class="row3 pr-5 row-third  col-4 text-right" >
+                <p class="text-right" >06.27</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--the menu -->
+<section class="menudiv ">
+    <div class="style1"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2 style " onclick="hide()">                
+                <p> <i class="fa fa-plus mr-4 " ></i><span class="mt-3">MENU</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- the menu-->
+<!--the next brown -->
+<section class="browndiv">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 back-to-previous" >
+                <p><i class="fa fa-chevron-left mr-4 "></i><strong>BACK TO PREVIOUS</strong></p>
+            </div>
+        </div>
+    </div>
+</section>    
+<!--the next brown -->
+<!--account section-->
+<section class="account">
+    <div class="container">
+        <div class="row rowone pb-5"> 
+            <div class="col-6 row-one pl-5" ><p>Account</p></div>
+            <div class="col-6 row-two "><p class="hidebutton">Hide</p></div>
+        </div>
+        <div class="row hiding">
+            <div class="container">
+                <div class="col-sm-1 rowtwo ">
+                    <p>Prefix:</p>
+                    <p>Name:</p>
+                    <p>Title:</p>
+                </div>
+                <div class="col-sm-2 rowtwo1 margining" >
+                    <p>Dr.</p>
+                    <p>Michelle Vargas</p>
+                    <p>Veterinarian</p>
+                </div>
+                <div class="col-sm-1 rowtwo">
+                    <p>Office:</p>
+                    <p>Mobile:</p>
+                    <p>Email:</p>
+                    <p>Website:</p>
+                </div>
+                <div class="col-sm-3 rowtwo1 ">
+                    <p>215.301.3699</p>
+                    <p>267.258.6234</p>
+                    <p>mvargas@vargasvet.com</p>
+                    <p>vargasvet.com</p>
+                </div>
+                <div class="col-sm-1 rowtwo1" >
+                    <p>works&nbsp;at:</p>
+                    <p>Address:</p>
+                </div>
+                <div class="col-sm-3 rowtwo1 ">
+                    <p>Vargas Animal Hospital</p>
+                    <p>654 Westin Way</p>
+                    <p>Bryan Mawr,PA</p>
+                    <p>19123</p>
+                </div>
+            </div>
+        </div>
+        <div class="row hiding edit-info text-right">
+            <p >EDIT INFO</p>
+            <div><i class="fa fa-chevron-right" ></i></div>
+        </div>
+    </div>
+</section>
+
+<!--account section-->
+<!--slider-->
+<section class="slider ">
+    <div class="inner-diving">
+        <div id="myCarousel1" class="carousel slide" data-ride="1000">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                    <div class="item active slider-width">
+                            <div class="row">
+                                <div class="col-one  first-div text-left m-0 pl-6 pt-5">
+                                    <p>Latest</p>
+                                </div>
+                                <div class="col-two second-div pl-5 pt-5">  
+                                    <p >TRACK NAME</p>
+                                    <p>ADD TAG HERE</p>
+                                    <p class="pt-4">Course title goes<br> here like this in<br> long form</p>
+                                    <p>Instructor Name</p>
+                                    <p class="pt-2">Additional  descriptive text goes<br> here in this format for schema and<br> taxonomy purposes </p>
+                                    <div class="learn-more text-right">
+                                        <p  class="learn-more-p">LEARN MORE</p>
+                                        <div ><i class="fa fa-chevron-right" ></i></div>
+                                    </div>
+                                </div>
+                                <div class=" col-three   third-div pl-4 pt-4">  
+                                    <div class="row-1 ">
+                                        <div class="col-sm-2 "><p class="row-1-p">CITY,STATE<br><span class="row-1-span">MONTH</span></p></div>
+                                        <div class="col-sm-5 "><p class="row-2-p pr-5"> 06.21</p></div>
+                                    </div>
+                                    <div class="row-2  pl-4">
+                                        <p>EVENT<br>
+                                         NAME GOES HERE</P>
+                                    </div>
+                                    <div class="row-3  pl-4">
+                                        <p>Booth informaiton additional <br> text goes here including metas</p>   
+                                    </div>
+                                    <div class="learn-more text-right">
+                                        <p  class="learn-more-p">LEARN MORE &amp; REGISTER</p>
+                                        <div ><i class="fa fa-chevron-right" ></i></div>
+                                    </div>
+                                </div>
+                                <div class="col-four fourth-div pl-4 pt-4">
+                                    <p class="pt-3">NEW ITEMS</p>
+                                    <p class="">ADD TAG HERE</p>
+                                    <p class="pt-4">NEW TITLE GOE
+                                        <BR>here like this<br> long form
+                                    </p>
+                                    <p>New Product</p>
+                                    <p class="pt-4">additinal description<br>will be here</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item slider-width" >
+                                <div class="row">
+                                    <div class="col-one  first-div text-left m-0 pl-6 pt-5">
+                                        <p>Latest</p>
+                                    </div>
+                                    <div class="col-two second-div pl-5 pt-5">  
+                                        <p >TRACK NAME</p>
+                                        <p>ADD TAG HERE</p>
+                                        <p class="pt-4">Course title goes<br> here like this in<br> long form</p>
+                                        <p>Instructor Name</p>
+                                        <p class="pt-2">Additional  descriptive text goes<br> here in this format for schema and<br> taxonomy purposes </p>
+                                        <div class="learn-more text-right">
+                                            <p  class="learn-more-p">LEARN MORE</p>
+                                            <div ><i class="fa fa-chevron-right" ></i></div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-three   third-div pl-4 pt-4">  
+                                        <div class="row-1 ">
+                                            <div class="col-sm-2 "><p class="row-1-p">CITY,STATE<br><span class="row-1-span">MONTH</span></p></div>
+                                            <div class="col-sm-5 "><p class="row-2-p pr-5"> 06.21</p></div>
+                                        </div>
+                                        <div class="row-2  pl-4">
+                                            <p>EVENT<br>
+                                             NAME GOES HERE</P>
+                                        </div>
+                                        <div class="row-3  pl-4">
+                                            <p>Booth informaiton additional <br> text goes here including metas</p>   
+                                        </div>
+                                        <div class="learn-more text-right">
+                                            <p  class="learn-more-p">LEARN MORE &amp; REGISTER</p>
+                                            <div ><i class="fa fa-chevron-right" ></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-four fourth-div pl-4 pt-4">
+                                        <p class="pt-3">NEW ITEMS</p>
+                                        <p class="">ADD TAG HERE</p>
+                                        <p class="pt-4">NEW TITLE GOE
+                                            <BR>here like this<br> long form
+                                        </p>
+                                        <p>New Product</p>
+                                        <p class="pt-4">additinal description<br>will be here</p>
+                                    </div>
+                                </div>
+                            </div>        
+            </div>  
+            <!-- Left and right controls -->      
+            <a class="right myCarousel1" href="#myCarousel1" data-slide="next">
+                <div  class="slidericon2">
+                    <i class="fa fa-angle-right" ></i>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+        
+<!--slider-->
+<!--your courses-->
+
+<section class="your-courses ">
+    <div class="top-area">
+        <div class="container pt-5">
+            <div class="row rowone pb-5"> 
+                <div class="col-6 row-one " ><p>Your Courses</p></div>
+                <div class="col-6 row-two "><p class="hidebutton1">Hide</p></div>
+            </div>
+        </div>
+        <div class="container pt-5">
+            <div class="header">
+                <div class="col-sm-12 " >
+                    <div class="row mx-0 hiding1">
+                        <div class="col-md-2 image  p-0 ">
+                            <div class="card ">
+                                <div class="icons">
+                                    <i class="fa fa-heart-o"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                                <div class="foot">
+                                    <p>Descriptive Tag</p>
+                                    <h5>Object Title</h5> 
+                                    <h5>Formatted Here</h5> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <div class="card-bottom-icon">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i>  3,048</li>
+                                            <li><i class="fa fa-clock-o"></i>   12 hour</li>
+                                        </ul>
+                                        <i class="fa fa-chevron-right card-icon"></i>
+                                    </div> 
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 image p-0 ">
+                            <div class="card">
+                                <div class="icons">
+                                    <i class="fa fa-heart-o"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                                <div class="foot">
+                                    <p>Descriptive Tag</p>
+                                    <h5>Object Title</h5> 
+                                    <h5>Formatted Here</h5> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <div class="card-bottom-icon">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i>  3,048</li>
+                                            <li><i class="fa fa-clock-o"></i>   12 hour</li>
+                                        </ul>
+                                        <i class="fa fa-chevron-right card-icon"></i>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 image p-0 ">
+                            <div class="card">
+                                <div class="icons">
+                                    <i class="fa fa-heart-o"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                                <div class="foot">
+                                    <p>Descriptive Tag</p>
+                                    <h5>Object Title</h5> 
+                                    <h5>Formatted Here</h5> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <div class="card-bottom-icon">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i>  3,048</li>
+                                            <li><i class="fa fa-clock-o"></i>   12 hour</li>
+                                        </ul>
+                                        <i class="fa fa-chevron-right card-icon"></i>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 image p-0 ">
+                            <div class="card">
+                                <div class="icons">
+                                    <i class="fa fa-heart-o"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                                <div class="foot">
+                                    <p>Descriptive Tag</p>
+                                    <h5>Object Title</h5> 
+                                    <h5>Formatted Here</h5> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <div class="card-bottom-icon">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i>  3,048</li>
+                                            <li><i class="fa fa-clock-o"></i>   12 hour</li>
+                                        </ul>
+                                        <i class="fa fa-chevron-right card-icon"></i>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2 image p-0 ">
+                            <div class="card">
+                                <div class="icons">
+                                    <i class="fa fa-heart-o"></i>
+                                    <i class="fa fa-camera"></i>
+                                </div>
+                                <div class="foot">
+                                    <p>Descriptive Tag</p>
+                                    <h5>Object Title</h5> 
+                                    <h5>Formatted Here</h5> 
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <div class="card-bottom-icon">
+                                        <ul>
+                                            <li><i class="fa fa-user"></i>  3,048</li>
+                                            <li><i class="fa fa-clock-o"></i>   12 hour</li>
+                                        </ul>
+                                        <i class="fa fa-chevron-right card-icon"></i>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>          
+    </div>
+    <div class="grey "></div>
+</section>
+<!--your courses-->
+
+<!--your purchases-->
+<section class="your-purchase mt-4">
+        <div class="container">
+            <div class="row rowone pb-5"> 
+                <div class="col-6 row-one " ><p>Your Purchases</p></div>
+                <div class="col-6 row-two "><p class="hidebutton3">Hide</p></div>
+            </div>  
+        </div>
+        <div class="red-row">
+            <div class="container">
+                <div class="row mt-4 hiding3"> 
+                    <div class="offset-3 col-3  pl-5" ><p class="style">Stance <span class="analyzer" >Analyzer</span></p></div>
+                    <div class="col-3 "><p class="style2">06.27.18</p></div>
+                    <div class="col-3 more-details text-right">
+                            <p >MORE DETAILS</p>
+                            <div><i class="fa fa-chevron-right" ></i></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="red-row1 hiding3">
+                <div class="container">
+                    <div class="row mt-4"> 
+                        <div class="offset-3 col-3  pl-5" ><p class="style">Stance <span class="analyzer" >Analyzer</span></p></div>
+                        <div class="col-3 "><p class="style2">03.09.18</p></div>
+                        <div class="col-3 more-details text-right">
+                                <p >MORE DETAILS</p>
+                                <div><i class="fa fa-chevron-right" ></i></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="red-row hiding3">
+                    <div class="container">
+                        <div class="row mt-4"> 
+                            <div class="offset-3 col-3  pl-5" ><p class="style">Stance <span class="analyzer" >Analyzer</span></p></div>
+                            <div class="col-3 "><p class="style2">03.01.18</p></div>
+                            <div class="col-3 more-details text-right">
+                                <p >MORE DETAILS</p>
+                                <div><i class="fa fa-chevron-right" ></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+    </section>
+    
+<!--your purchases-->
+
+<!--your events section-->
+<section class="your-event">
+    <div class="container">
+        <div class="row rowone pb-5"> 
+            <div class="col-6 row-one pl-5" ><p>Your Events</p></div>
+            <div class="col-6 row-two "><p class="hidebutton4">Hide</p></div>
+        </div>
+    </div>
+    <div class="red-row">
+        <div class="container">
+            <div class="row mt-4 hiding4"> 
+                <div class="offset-3 col-3  pl-5" ><p class="style">Live Webinar</p></div>
+                <div class="col-3 "><p class="style2">06.27.18</p></div>
+                <div class="col-3 more-details text-right">
+                        <p >MORE DETAILS</p>
+                        <div><i class="fa fa-chevron-right" ></i></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="red-row1">
+            <div class="container">
+                <div class="row mt-4 hiding4"> 
+                    <div class="offset-3 col-3  pl-5" ><p class="style">Live Webinar</p></div>
+                    <div class="col-3 "><p class="style2">06.27.18</p></div>
+                    <div class="col-3 more-details text-right">
+                            <p >MORE DETAILS</p>
+                            <div><i class="fa fa-chevron-right" ></i></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="red-row">
+                <div class="container">
+                    <div class="row mt-4 hiding4"> 
+                        <div class="offset-3 col-3  pl-5" ><p class="style">Product Demo</p></div>
+                        <div class="col-3 "><p class="style2">06.27.18</p></div>
+                        <div class="col-3 more-details text-right">
+                            <p >MORE DETAILS</p>
+                            <div><i class="fa fa-chevron-right" ></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row rowone1 "> 
+                </div>
+            </div>    
+</section>
+<!--your events section-->
+<!--footer overall-->
+<section >  
+    <footer class="footer mt-5 pb-5  ">
+        <div class="container">
+            <div class="container">
+                <div class="container">
+                    <div class="row mt-5">                     
+                        <div class="offset-1 col-2 mt-5">
+                            <div class="redcolor"><strong>Websites</strong></div>
+                            <br><br>
+                            <div class="footer-menu">
+                                <div>companion</div>
+                                <div>Equine</div>
+                                <div>Medical</div>  
+                                <div>Corporate</div>
+                            </div>    
+                        </div>
+                        <div class="col-2 mt-5">
+                            <div class="redcolor"><strong>partners</strong></div>
+                            <br><br>
+                            <div class="footer-menu">
+                            <div>Account</div>
+                            <div>Customer Support</div>
+                            <div>Education</div>
+                            <div>Shop Online</div>
+                            <div>Medical Advisory Board</div>
+                            <div>Research</div>
+                            </div>
+                        </div>
+                        <div class="col-2 mt-5">
+                            <div class="redcolor"><strong>LiteCure</strong></div>
+                            <br><br>
+                            <div class="footer-menu">
+                            <div>About US</div>
+                            <div>Contact LiteCure</div>
+                            <div>Contact Sales</div>
+                            <div>Core Values</div>
+                            <div>Products</div>
+                            <div>Careers</div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mt-5">
+                                <div class="redcolor"><strong>Facebook</strong></div>
+                            <br><br>
+                            <div class="footer-menu">
+                            <div class="text-bold">12:58 PM - 7 MAR 2018</div>
+                          
+                            <div><P>Registration is now open for our next live webinar,"Laser Therapy
+                                in Equine Medicine". Sign up to  discover how laser therapy can 
+                                accelerate the healing of many equine conditions, like #tendonitis, #desmitis, 
+                                #synovitis, #osteoarthritis, wounds, &amp; more: http://bddy.me/2HetW5w</P>
+                            </div>
+                            </div>
+
+                        </div>
+                        <div class="col-2 mt-5">
+                            <i class="fa fa-linkedin-square redcolor socialicons socialicons1" ></i>
+                            <i class="fa fa-twitter redcolor socialicons socialicons1"></i> 
+                            <i class="fa fa-envelope redcolor  socialicons socialicons1" ></i> 
+                                                       
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-6 pb-5  footer-menu-last">
+                <div class="offset-1 col-4  pl-5"><p>Copyright  © 2018 LiteCure, LLC. All rights reserved.</p></div>
+                <div class=" offset-3 col-md-1 text-right "> <p>Legal</p></div>
+                <div class="col-md-1 text-right pr-2"> <p>Terms of  Use</p></div>
+                <div class="col-md-2 text-right "><p>Privacy Policy</p></div>
+            </div>
+        </div>
+    </footer>
+</section>
+</div>
+
+   <!--menu section which is hidden-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
