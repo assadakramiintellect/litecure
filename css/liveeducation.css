@@ -1490,3 +1490,12 @@ h1 {
 .innerslider{
   margin: 0 auto;
 }
+/*   Subscribing Area   */
+.subscribing-area {
+  background: #F7F7F7;
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+.second-subscribe {
+  padding: 92px 0 66px 0;
+}

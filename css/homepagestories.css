@@ -148,8 +148,8 @@ h1 {
   background-size: 100%; }
 
 .cat-background {
-  background-color: #c7c9c7 !important; }
-
+  background: linear-gradient(rgba(220, 220, 220, 0.6), rgba(214, 214, 214, 0.6)), linear-gradient(rgba(206, 206, 206, 0.3), rgba(208, 208, 208, 0.3)), url(../assets/cat-bc.png) no-repeat;
+}
 .cat-section-lg {
   transform: rotate(-360deg);
   opacity: 0.69;
@@ -553,4 +553,8 @@ h1 {
 .main-images{
   width: 186px;
   height: 187px;
+}
+.the-three-dives > .main-area{
+  max-width: 1319px;
+  margin: 0 auto;
 }
