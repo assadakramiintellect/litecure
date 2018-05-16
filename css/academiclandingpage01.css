@@ -121,6 +121,7 @@ h1 {
   background: -webkit-linear-gradient(left, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
   background: linear-gradient(to right, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
 }
+
 .the-three-dives > .main-area{
   max-width: 1319px;
   margin: 0 auto;
