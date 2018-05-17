@@ -2,23 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a161330-eeb3-4cbc-b6c7-9fab7c1394fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logos/whitelitecure.png" afterPath="$PROJECT_DIR$/assets/logos/whitelitecure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bulldog.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/catinthehands.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/catselfie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dinasaurskeleton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/emergingtrendsgerms.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/kittenhand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/redcat.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academiclandingpageemergingtrends.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academylandingwellness.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academyminimallyinvasive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academiclandingpageemergingtrends.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academylandingwelless.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academyminimallyinvasive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/publicationarchivepage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicationarchivepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academiclandingpage01.html" afterPath="$PROJECT_DIR$/academiclandingpage01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academylandingpage.html" afterPath="$PROJECT_DIR$/academylandingpage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/academiclandingpage01.css" afterPath="$PROJECT_DIR$/css/academiclandingpage01.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/acadlandingpage.css" afterPath="$PROJECT_DIR$/css/acadlandingpage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dashboard.css" afterPath="$PROJECT_DIR$/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homepage01.css" afterPath="$PROJECT_DIR$/css/homepage01.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homepagestories.css" afterPath="$PROJECT_DIR$/css/homepagestories.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/liveeducation.css" afterPath="$PROJECT_DIR$/css/liveeducation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/painmenagement.css" afterPath="$PROJECT_DIR$/css/painmenagement.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.html" afterPath="$PROJECT_DIR$/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepage01.html" afterPath="$PROJECT_DIR$/homepage01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homepagestories.html" afterPath="$PROJECT_DIR$/homepagestories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liveeducation.html" afterPath="$PROJECT_DIR$/liveeducation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/painmanagement.html" afterPath="$PROJECT_DIR$/painmanagement.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/painmanagement.html" afterPath="$PROJECT_DIR$/academylandingpagepainmanagement.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +35,8 @@
       <file leaf-file-name="academylandingpage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/academylandingpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="272">
+              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -66,26 +68,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="painmanagement.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/painmanagement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="academiclandingpage01.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/academiclandingpage01.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
               <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
+              <folding>
+                <marker date="1526549991392" expanded="true" signature="6:63" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +132,6 @@
         <option value="$PROJECT_DIR$/painmanagement.html" />
         <option value="$PROJECT_DIR$/css/painmenagement.css" />
         <option value="$PROJECT_DIR$/academiclandingpage01.html" />
-        <option value="$PROJECT_DIR$/academylandingpage.html" />
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/liveeducation.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -154,6 +143,7 @@
         <option value="$PROJECT_DIR$/css/dashboard.css" />
         <option value="$PROJECT_DIR$/css/acadlandingpage.css" />
         <option value="$PROJECT_DIR$/css/academiclandingpage01.css" />
+        <option value="$PROJECT_DIR$/academylandingpage.html" />
       </list>
     </option>
   </component>
@@ -320,12 +310,12 @@
       <updated>1526441148165</updated>
       <workItem from="1526441149704" duration="7557000" />
       <workItem from="1526449097505" duration="10094000" />
-      <workItem from="1526458977233" duration="12780000" />
+      <workItem from="1526458977233" duration="15492000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30431000" />
+    <option name="totallyTimeSpent" value="33143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -497,7 +487,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1526549991392" expanded="true" signature="6:63" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,12 +506,8 @@
     <entry file="file://$PROJECT_DIR$/painmanagement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <element signature="n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -551,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/academylandingpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
             <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
