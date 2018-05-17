@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a161330-eeb3-4cbc-b6c7-9fab7c1394fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bulldog.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/catinthehands.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/catselfie.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dinasaurskeleton.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/emergingtrendsgerms.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/kittenhand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/redcat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academiclandingpageemergingtrends.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academylandingwellness.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/academyminimallyinvasive.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academiclandingpageemergingtrends.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academylandingwelless.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/academyminimallyinvasive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/publicationarchivepage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/publicationarchivepage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/academiclandingpage01.html" afterPath="$PROJECT_DIR$/academiclandingpage01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/academiclandingpage01.css" afterPath="$PROJECT_DIR$/css/academiclandingpage01.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/painmanagement.html" afterPath="$PROJECT_DIR$/academylandingpagepainmanagement.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,60 +14,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="academylandingpage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/academylandingpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-              <folding>
-                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" column="115" lean-forward="false" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
-              <folding>
-                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="liveeducation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/liveeducation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-              <folding>
-                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="academiclandingpage01.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/academiclandingpage01.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <marker date="1526549991392" expanded="true" signature="6:63" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>arrow-img</find>
       <find>.main-images</find>
       <find>assets/signature.png</find>
       <find>/assets</find>
@@ -114,6 +47,7 @@
       <find>hero</find>
       <find>assets/logos/whitelitecure.png</find>
       <find>.headerlogo {</find>
+      <find>HEAD</find>
     </findStrings>
     <replaceStrings>
       <replace>css</replace>
@@ -131,7 +65,6 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/painmanagement.html" />
         <option value="$PROJECT_DIR$/css/painmenagement.css" />
-        <option value="$PROJECT_DIR$/academiclandingpage01.html" />
         <option value="$PROJECT_DIR$/dashboard.html" />
         <option value="$PROJECT_DIR$/liveeducation.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -144,6 +77,7 @@
         <option value="$PROJECT_DIR$/css/acadlandingpage.css" />
         <option value="$PROJECT_DIR$/css/academiclandingpage01.css" />
         <option value="$PROJECT_DIR$/academylandingpage.html" />
+        <option value="$PROJECT_DIR$/academiclandingpage01.html" />
       </list>
     </option>
   </component>
@@ -310,16 +244,15 @@
       <updated>1526441148165</updated>
       <workItem from="1526441149704" duration="7557000" />
       <workItem from="1526449097505" duration="10094000" />
-      <workItem from="1526458977233" duration="15492000" />
+      <workItem from="1526458977233" duration="16044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33143000" />
+    <option name="totallyTimeSpent" value="33695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -328,7 +261,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -416,14 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/academiclandingpage01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homepage01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -483,26 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/academiclandingpage01.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <marker date="1526549991392" expanded="true" signature="6:63" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liveeducation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-          <folding>
-            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/painmanagement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
@@ -527,6 +432,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/academylandingpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -537,13 +452,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/academylandingpage.html">
+    <entry file="file://$PROJECT_DIR$/liveeducation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="22" column="85" lean-forward="false" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
           <folding>
-            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/academiclandingpage01.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academylandingwellness.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academiclandingpage01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11164">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/academylandingpagepainmanagement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="329" column="28" lean-forward="false" selection-start-line="329" selection-start-column="24" selection-end-line="329" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
