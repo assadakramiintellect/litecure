@@ -340,7 +340,9 @@ h1 {
   color: #c7c9c7; }
 
 .white-color {
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  width: 100%;
+}
 
 .logo {
   opacity: 0.6;
@@ -354,7 +356,9 @@ h1 {
   color: #ffffff; }
 
 .bg-color {
-  background-color: rgba(155, 155, 155, 0.06); }
+  background-color: rgba(155, 155, 155, 0.06);
+  width: 1200px;
+}
 
 .Subscribe {
   font-family: AvenirNext;
@@ -365,7 +369,10 @@ h1 {
   line-height: 1.21;
   letter-spacing: -0.4px;
   text-align: left;
-  color: #5a6775; }
+  color: #5a6775;
+  padding-top: 54px;
+  padding-left: 44px;
+}
 
 .Subscribe1 {
   font-family: AvenirNext;
@@ -575,4 +582,25 @@ h1 {
 }
 .second-subscribe {
   padding: 92px 0 66px 0;
+}
+
+/*  Fining  */
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
+.whatsnew{
+  font-size: 34px;
+}
+.main-area-carosel {
+  max-width: 1349px;
+  margin: 0 auto;
+}
+.main-area-carosel > div{
+  max-width: 1240px;
+}
+.extea{
+  text-align: -webkit-right;
+  overflow: hidden;
 }
