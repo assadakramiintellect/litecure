@@ -121,11 +121,13 @@
         background: -webkit-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%); 
         background: linear-gradient(to right, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
   }
-  .the-three-dives > .main-area{
+  .main-area{
     max-width: 1319px;
     margin: 0 auto;
   }
-  
+  .main-area > div.further-row{
+    width: 1300px;
+  }
   .the-three-dives .aligninng {
     display: flex;
     flex-direction: column;
@@ -1621,10 +1623,10 @@
   background-color:  #f7f7f7;
 }
 .feature-publication .upper-row{
-
- display: flex;
- flex-direction: row;
- height: 148px;
+  display: flex;
+  flex-direction: row;
+  height: 148px;
+  padding-left: 79px;
 }
 .feature-publication .upper-row .feature-header{
   padding-top: 41px;

@@ -1,6 +1,6 @@
 #hero {
     background-blend-mode: normal, multiply;
-    background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/onthebackofagirl.jpg)no-repeat;
+    background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/dogonback.jpg)no-repeat;
     background-size: cover; 
 }
   
@@ -121,11 +121,13 @@
         background: -webkit-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%); 
         background: linear-gradient(to right, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
   }
-  .the-three-dives > .main-area{
+  .main-area{
     max-width: 1319px;
     margin: 0 auto;
   }
-  
+  .main-area > div.further-row{
+    width: 1300px;
+  }
   .the-three-dives .aligninng {
     display: flex;
     flex-direction: column;
@@ -228,7 +230,7 @@
   
 .the-three-dives .col4 {
     background-blend-mode: normal, soft-light, multiply;
-    background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/onthebackofagirl.jpg)no-repeat;
+    background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/lickingfaces.jpg)no-repeat;
     background-size: 100%; 
 }
   /* live courses */
@@ -1621,10 +1623,10 @@
   background-color:  #f7f7f7;
 }
 .feature-publication .upper-row{
-
  display: flex;
  flex-direction: row;
  height: 148px;
+  padding-left: 79px;
 }
 .feature-publication .upper-row .feature-header{
   padding-top: 41px;
