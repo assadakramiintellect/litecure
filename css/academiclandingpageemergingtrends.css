@@ -1,3 +1,7 @@
+/* a{
+  color: #f7f7f7!important;
+  text-decoration: none!important;
+} */
 #hero {
     background-blend-mode: normal, multiply;
     background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/catinthehands.jpeg)no-repeat;
@@ -14,13 +18,16 @@
     src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
   
   .headerlogo {
-    padding-top: 47px;
+    
+    padding-left: 0px;
+    padding-top: 40px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row; }
   
   .headerlogo1 {
-    padding-top: 47px;
+    
+    padding-top: 51px;
     display: flex;
     justify-content: flex-end;
     flex-direction: row; }
@@ -80,6 +87,47 @@
     text-align: left;
     color: #9d9d9d; }
   
+    .secondnav1 a{
+      opacity: 0.9;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #9d9d9d; }
+
+.secondnav1 a:visited,
+.secondnav1 a:hover,
+.secondnav1 a:active,
+.secondnav1 a:focus{
+      opacity: 0.9;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #9d9d9d;
+      text-decoration: none; 
+    }
+    /* .secondnav1 a:active,a:focus, a:visited{
+      opacity: 0.9;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #9d9d9d;
+      text-decoration: none; 
+    } */
   .secondnav12 {
     mix-blend-mode: screen;
     font-family: AvenirNext;
@@ -111,7 +159,23 @@
     line-height: 2;
     letter-spacing: 0.1px;
     text-align: left;
-    color: #ffffff; }
+    color: #ffffff!important;
+    text-decoration: none!important; 
+  }
+.secondnav a{
+  opacity: 0.9;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+  color: #f7f7f7!important;
+  text-decoration: none!important;
+}
+
+
   
   .bgcolor {
     background-color: #fc0606;
@@ -144,7 +208,35 @@
     letter-spacing: -0.5px;
     text-align: left;
     color: #9d9d9d; }
-  
+
+  .the-three-dives .two-div-2 a{
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #9d9d9d; 
+  }
+  .the-three-dives .two-div-2 a:hover,
+  .the-three-dives .two-div-2 a:visited,
+  .the-three-dives .two-div-2 a:focus,
+  .the-three-dives .two-div-2 a:active{
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #9d9d9d; 
+    text-decoration: none;
+  }
   .the-three-dives .two-div2 {
     display: flex;
     flex-direction: column;
@@ -200,7 +292,7 @@
   .the-three-dives .col1 {
     background-color: #a6192e; }
   
-  .the-three-dives .col1 p {
+  .the-three-dives .col1 p a{
     font-family: AvenirNext;
     font-size: 28px;
     font-weight: bold;
@@ -209,14 +301,28 @@
     line-height: 1.5;
     letter-spacing: -0.5px;
     text-align: left;
-    color: #f26b7f; }
+    color: #f26b7f; 
+    text-decoration: none!important;
+  }
+.the-three-dives .col1 p a:hover,
+.the-three-dives .col1 p a:visited,
+.the-three-dives .col1 p a:focus,
+.the-three-dives .col1 p a:active,
+  {
+      font-family: AvenirNext;
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: -0.5px;
+      text-align: left;
+      color: #f26b7f; 
+      text-decoration: none!important;
+    }
   
-  .the-three-dives .col1 p:first-child {
-    color: #ffffff; }
+ 
 
-  .the-three-dives .col1 p:nth-last-child(2) {
-    color: #ffffff; }
-    
   
   .the-three-dives .col3 {
     background-blend-mode: normal, multiply;

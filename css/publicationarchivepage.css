@@ -14,13 +14,14 @@
     src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
   
   .headerlogo {
+    padding-left: 0px;
     padding-top: 47px;
     display: flex;
     justify-content: flex-start;
     flex-direction: row; }
   
   .headerlogo1 {
-    padding-top: 47px;
+    padding-top: 56px;
     display: flex;
     justify-content: flex-end;
     flex-direction: row; }
@@ -79,7 +80,133 @@
     letter-spacing: 0.1px;
     text-align: left;
     color: #9d9d9d; }
-  
+    .secondnav1 a{
+      opacity: 0.9;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #9d9d9d; }
+
+.secondnav1 a:visited,
+.secondnav1 a:hover,
+.secondnav1 a:active,
+.secondnav1 a:focus{
+      opacity: 0.9;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #9d9d9d;
+      text-decoration: none; 
+    }
+    
+.secondnav a{
+  opacity: 0.9;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+  color: #f7f7f7!important;
+  text-decoration: none!important;
+}
+.the-three-dives .two-div-2 a{
+  mix-blend-mode: screen;
+  font-family: AvenirNext;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #9d9d9d; 
+}
+.the-three-dives .two-div-2 a:hover,
+.the-three-dives .two-div-2 a:visited,
+.the-three-dives .two-div-2 a:focus,
+.the-three-dives .two-div-2 a:active{
+  mix-blend-mode: screen;
+  font-family: AvenirNext;
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #9d9d9d; 
+  text-decoration: none;
+}
+.the-three-dives .col1 p a{
+  font-family: AvenirNext;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #f26b7f; 
+  text-decoration: none!important;
+}
+.the-three-dives .col1 p a:hover,
+.the-three-dives .col1 p a:visited,
+.the-three-dives .col1 p a:focus,
+.the-three-dives .col1 p a:active,
+{
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #f26b7f; 
+    text-decoration: none!important;
+  }
+
+  .the-three-dives .two-div-2 a{
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #9d9d9d; 
+  }
+  .the-three-dives .two-div-2 a:hover,
+  .the-three-dives .two-div-2 a:visited,
+  .the-three-dives .two-div-2 a:focus,
+  .the-three-dives .two-div-2 a:active{
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #9d9d9d; 
+    text-decoration: none;
+  }
+ 
   .secondnav12 {
     mix-blend-mode: screen;
     font-family: AvenirNext;
