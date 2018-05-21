@@ -608,3 +608,10 @@ h1 {
 .extea{
     text-align: -webkit-right;
 }
+.the-three-dives{
+    background-color: #fc0606;
+}
+.main-area {
+    max-width: 1319px;
+    margin: 0 auto;
+}

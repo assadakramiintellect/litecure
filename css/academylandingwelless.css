@@ -248,7 +248,7 @@
     background: -webkit-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
     background: linear-gradient(to right, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
   }
-  .the-three-dives > .main-area{
+  .main-area{
     max-width: 1319px;
     margin: 0 auto;
   }
@@ -1860,4 +1860,8 @@
   
   .header-text p > span {
     color: #54585a; }
-  
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}

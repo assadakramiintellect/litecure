@@ -14,7 +14,11 @@
   z-index: 1;
   position: relative;
   display: none; }
-
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
 .menu .close-button {
   display: flex;
   flex-direction: row;

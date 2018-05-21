@@ -554,7 +554,15 @@ h1 {
   width: 186px;
   height: 187px;
 }
-.the-three-dives > .main-area{
+.main-area{
   max-width: 1319px;
   margin: 0 auto;
+}
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
+.the-three-dives{
+  background-color: #fc0606;
 }

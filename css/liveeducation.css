@@ -1483,7 +1483,7 @@ h1 {
   letter-spacing: 33px;
   color: #ffffff;
 }
-.the-three-dives > .main-area {
+.main-area {
   max-width: 1319px;
   margin: 0 auto;
 }
@@ -1498,4 +1498,12 @@ h1 {
 }
 .second-subscribe {
   padding: 92px 0 66px 0;
+}
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
+.the-three-dives{
+  background-color: #a6192e;
 }

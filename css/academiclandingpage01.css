@@ -167,7 +167,7 @@ h1 {
   background: linear-gradient(to right, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
 }
 
-.the-three-dives > .main-area{
+.main-area{
   max-width: 1319px;
   margin: 0 auto;
 }
@@ -1986,3 +1986,8 @@ h1 {
   letter-spacing: normal;
   text-align: center; }
 /* top resources */
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
