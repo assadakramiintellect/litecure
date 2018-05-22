@@ -796,7 +796,8 @@ h1 {
     max-width: 1240px;
 }
 .extea{
-    text-align: -webkit-right;
+    display: flex;
+    justify-content: flex-end;
 }
 .the-three-dives{
     background-color: #fc0606;

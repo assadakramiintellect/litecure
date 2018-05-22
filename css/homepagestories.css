@@ -512,6 +512,7 @@ h1 {
 .bg-color {
   background-color: rgba(155, 155, 155, 0.06); }
 
+/* subscribe */
 .Subscribe {
   font-family: AvenirNext;
   font-size: 34px;
@@ -521,8 +522,14 @@ h1 {
   line-height: 1.21;
   letter-spacing: -0.4px;
   text-align: left;
-  color: #5a6775; }
-
+  color: #5a6775;
+  padding-top: 54px;
+  padding-left: 44px;
+}
+.bg-color {
+  background-color: rgba(155, 155, 155, 0.06);
+  width: 1200px;
+}
 .Subscribe1 {
   font-family: AvenirNext;
   font-size: 13px;
@@ -533,7 +540,42 @@ h1 {
   letter-spacing: normal;
   text-align: left;
   color: #5a6775; }
+.subscribing-area {
+  background: #F7F7F7;
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+.second-subscribe {
+  padding: 107px 0 66px 0;
+}
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
+.whatsnew{
+  font-size: 34px;
+}
+.main-area-carosel {
+  max-width: 1349px;
+  margin: 0 auto;
+}
+.main-area-carosel > div{
+  max-width: 1240px;
+}
+.extea{
+  display: flex;
+  justify-content: flex-end;
+}
+.the-three-dives{
+  background-color: #fc0606;
+}
+.main-area {
+  max-width: 1319px;
+  margin: 0 auto;
+}
 
+/* subsribe */
 .indicators {
   bottom: -70px !important;
   background-color: #9d9d9d !important;
