@@ -1,4 +1,17 @@
-
+/* a{
+  color: #f7f7f7!important;
+  text-decoration: none!important;
+} */
+body{
+  overflow-x: hidden;
+  margin:0px;
+  padding: 0px;
+}
+#hero {
+    background-blend-mode: normal, multiply;
+    background:linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b),url(../assets/field-girl-dog.jpg)no-repeat;
+    background-size: cover; 
+}
   
   .hero-row-1 {
     display: flex;
@@ -24,7 +37,6 @@
     justify-content: flex-end;
     flex-direction: row; }
   
-    
   .logoheader {
     display: flex;
     flex-direction: row;
@@ -55,7 +67,18 @@
     flex-direction: row;
     justify-content: flex-end; }
   
- 
+  .logo-one p {
+    opacity: 0.6 !important;
+    font-family: AvenirNext !important;
+    font-size: 36px !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: 1 !important;
+    letter-spacing: 42px !important;
+    text-align: left !important;
+    color: #ffffff !important;
+    padding-top: 126px !important; }
   
   .secondnav1 {
     opacity: 0.9;
@@ -97,7 +120,19 @@
       color: #9d9d9d;
       text-decoration: none; 
     }
-   
+    /* .secondnav1 a:active,a:focus, a:visited{
+      opacity: 0.9;
+      font-family: AvenirNext;
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2;
+      letter-spacing: 0.1px;
+      text-align: left;
+      color: #9d9d9d;
+      text-decoration: none; 
+    } */
   .secondnav12 {
     mix-blend-mode: screen;
     font-family: AvenirNext;
@@ -145,16 +180,28 @@
   text-decoration: none!important;
 }
 
+.computer-area {
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
+
 
   
   .bgcolor {
     background-color: #fc0606;
     height: 61px; }
- 
-  .main-area{
+  .the-three-dives{
+    background: -moz-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
+    background: -webkit-linear-gradient(left, #ff0127 0%,rgb(255, 0, 38) 42%,#ff0014 45%,#040303 45%,rgb(66, 66, 66) 100%);
+    /* background: linear-gradient(to right, #ff0026 0%,rgb(255, 0, 38) 42%,#272727 45%,#040303 45%,rgb(66, 66, 66) 100%); */       
+    position: relative;
+  }
+  .the-three-dives > .main-area{
     max-width: 1319px;
     margin: 0 auto;
   }
+
   
   .the-three-dives .aligninng {
     display: flex;
@@ -256,7 +303,9 @@
     color: #9d9d9d; }
   
   .the-three-dives .col1 {
-    background-color: #a6192e; }
+    background-color: #54585a; 
+    height: 461px;
+}
   
   .the-three-dives .col1 p a{
     font-family: AvenirNext;
@@ -290,13 +339,256 @@
  
 
   
- 
+  .the-three-dives .col3 {
+    background-blend-mode: normal, multiply;
+    background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("../assets/col3.jpg");
+    background-size: 100% 100%; }
   
   .the-three-dives .col2 {
     background-color: #fc0606; }
   
+.the-three-dives .col4 {
+    background-blend-mode: normal, soft-light, multiply;
+    background:linear-gradient(to bottom, #353535, rgba(32, 33, 33, 0.05)), linear-gradient(#54585a, rgb(0, 0, 0)), linear-gradient(#54585a, rgba(84, 88, 90, 0.21)), url(../assets/men-and-cat.jpg) no-repeat;
+    background-size: 100%; 
+    height: 461px;
+}
+/* ctx-section */
+.ctx-section{
+  z-index: 9;
+}
+.ctx-section  .feaured-product-pic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 790px;  
 
+}
+.ctx-section  .feaured-product-pic .ctx-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
   
+
+}
+
+
+.ctx-section  .feaured-product-pic .ctx-head p {
+  height: 38px!important;
+  font-family: AvenirNext;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fc0606;
+  margin-top: 17px;
+}
+.ctx-image1{
+  position: absolute;
+    z-index: 54;
+    width: 713px;
+    height: 639px;
+    top: 240px;
+    right: -55px;
+    margin: 0 auto;
+}
+
+
+.ctx-section  .feaured-product-pic .ctx-text{
+  width: 75%;
+  
+}
+.ctx-section  .feaured-product-pic .ctx-text p{
+  opacity: 0.69;
+  mix-blend-mode: multiply;
+  font-family: AvenirNext;
+  font-size: 57px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #9d9d9d;
+  
+}
+
+.ctx-section  .feaured-product-pic .ctx-text .ctx-itself{
+  color: #fc0606;
+}
+
+.ctx-section .carousel-indicators {
+    position: absolute;
+    bottom: 79px!important;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.ctx-section .ctx-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 38px;
+  height: 140px;
+}
+
+.ctx-section .learn-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 64px; 
+  padding-bottom: 128px;
+}
+
+.ctx-section .learn-more div {
+  height: 39px;
+  width: 39px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: #fc0606;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 3px;
+  padding-top: 2px;
+  margin-top: 25px;
+}
+.ctx-section .learn-more p{
+   width:40px;
+   display: flex;
+  padding-top: 36px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-family: AvenirNext;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #54585a;
+  
+}
+
+.ctx-section .learn-more-p  {
+  color: #54585a !important;
+  padding-right: 4.5%;
+  line-height: 38px;
+  font-family: AvenirNext !important;
+  font-weight: 300 !important;
+  font-size: 12px !important;
+  width: 170px!important;
+  display: flex!important;
+  padding-top: 36px!important;
+  align-items: flex-end!important;
+  justify-content: flex-end!important;
+}
+ 
+.ctx-section .learn-more i{
+ 
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.31;
+letter-spacing: 0.2px;
+text-align: left;
+color: #c7c9c7;
+color: #ffffff;
+padding-bottom: 2px;
+padding-left: 2px;
+
+}
+  
+
+/* slider1 */
+
+  .learn-more div {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-top: 25px;
+ }
+ .learn-more p{
+     width:40px;
+     display: flex;
+    padding-top: 36px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-family: AvenirNext;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #c7c9c7;
+  
+  }
+  
+.learn-more-p  {
+    color: #ffffff !important;
+    padding-right: 4.5%;
+    line-height: 38px;
+    font-family: AvenirNext !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    width: 170px!important;
+    display: flex!important;
+    padding-top: 36px!important;
+    align-items: flex-end!important;
+    justify-content: flex-end!important;
+    margin-left: 28px;
+    padding-right:11px;
+ }
+   
+.learn-more i{
+    
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.31;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #c7c9c7;
+ 
+}
+    
+  .learn-more {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    height: 64px; 
+    padding-top:41px;
+}
+.slider-indicator{
+    background: #54585a;
+    height:115px;
+}
   /* live courses */
   .live-education {
     background-color: #54585a;
@@ -695,8 +987,7 @@
     font-size: 78px;
     color: #c7c9c7; }
   
-  .learn-more i {
-    color: #ffffff; }
+  
   
   .slider .learn-more-p {
     color: #ffffff !important;
@@ -866,6 +1157,13 @@
     display: flex;
     flex-direction: row; }
   
+  .three-slider .first-div {
+    height: 333px;
+    background-blend-mode: normal, color, overlay, multiply;
+    background: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg") no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
   
   .three-slider .first-div .top {
     margin-left: 20px; }
@@ -910,6 +1208,24 @@
     justify-content: space-between;
     align-items: center; }
   
+  .three-slider .second-div .row-1 .row-1-p {
+    color: #fa0707;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: bolder; }
+  
+  .three-slider .second-div .row-1 .row-2-p {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: AvenirNext;
+    margin-bottom: -2px; }
+  
+  .three-slider .second-div .row-1 .row-1-p .row-1-span {
+    font-family: AvenirNext;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px; }
   
   .three-slider .second-div .row-2 {
     display: flex;
@@ -981,8 +1297,7 @@
     font-size: 78px;
     color: #c7c9c7; }
   
-  .learn-more i {
-    color: #ffffff; }
+ 
   
   .three-slider .learn-more-p {
     color: #ffffff !important;
@@ -1177,10 +1492,25 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end; }
-    
-  .Hands-on .header-text p {
-    width: 538px;
-    height: 38px;
+  
+  .live-course {
+    opacity: 0.6;
+    background-color: #c7c9c7;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px; }
+  
+  .live-course .rowone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  
+  .live-course .rowone .row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; }
+  
+  .live-course .rowone .row-one p {
     font-family: AvenirNext;
     font-size: 28px;
     font-weight: 600;
@@ -1189,8 +1519,20 @@
     line-height: normal;
     letter-spacing: normal;
     text-align: left;
-    color: #fc0606; }
+    color: #54585a; }
   
+  .live-course .rowone .row-two {
+    color: #8D9498;
+    font-family: AvenirNext;
+    font-size: 27px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  
+  .live-course .margining {
+    margin-top: 8.3% !important; }
   
   .Hands-on {
     background-color: #c7c9c7;
@@ -1198,6 +1540,7 @@
     flex-direction: row;
     padding-top: 40px;
    }
+  
  
   .Hands-on .rowone {
     display: flex;
@@ -1232,6 +1575,68 @@
   
   .Hands-on .margining {
     margin-top: 8.3% !important; }
+/* subscribe */
+.Subscribe {
+  font-family: AvenirNext;
+  font-size: 34px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: -0.4px;
+  text-align: left;
+  color: #5a6775;
+  padding-top: 54px;
+  padding-left: 44px;
+}
+.bg-color {
+  background-color: rgba(155, 155, 155, 0.06);
+  width: 1200px;
+}
+.Subscribe1 {
+  font-family: AvenirNext;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #5a6775; }
+.subscribing-area {
+  background: #F7F7F7;
+  padding-top: 9rem;
+  padding-bottom: 6rem;
+}
+.second-subscribe {
+  padding: 107px 0 66px 0;
+}
+.computer-area{
+  border-bottom: solid 1px #9a9a9a;
+  width: 364px;
+  text-align: center;
+}
+.whatsnew{
+  font-size: 34px;
+}
+.main-area-carosel {
+  max-width: 1349px;
+  margin: 0 auto;
+}
+.main-area-carosel > div{
+  max-width: 1240px;
+}
+.extea{
+  display: flex;
+  justify-content: flex-end;
+}
+.the-three-dives{
+  background-color: #fc0606;
+}
+.main-area {
+  max-width: 1319px;
+  margin: 0 auto;
+}
   
   .slider1 {
     background-color: #f7f7f7; }
@@ -1282,7 +1687,7 @@
     color: #5a6775; }
   
   .carouselinicator {
-    bottom: 0 !important; }
+    bottom: 0px !important; }
   
   .slider2-sm-text {
     display: flex;
@@ -1297,10 +1702,12 @@
     line-height: 1.67;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff; }
+    color: #c7c9c7; 
+    padding-top: 48px;
+}
   
   .learnmore {
-    font-family: AvenirNext;
+    
     font-size: 12px;
     height: 32px;
     font-weight: bold;
@@ -1328,7 +1735,40 @@
     line-height: 1.28;
     letter-spacing: -0.8px;
     text-align: left;
-    color: #c7c9c7; }
+    color: #c7c9c7; 
+}
+.featured-customer-story .slider3-lg-text{
+    font-family: AvenirNext;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: -0.6px;
+  text-align: left;
+    
+}
+.slider-business .slider3-lg-text{
+    font-family: AvenirNext;
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.28;
+  letter-spacing: -0.6px;
+  text-align: left;
+}
+    .SLIDER3-SM-TEXT{
+  font-family: AvenirNext;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #c7c9c7;
+    }
   
   .school-business .header-text p {
     width: 538px;
@@ -1474,70 +1914,6 @@
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center; }
-    /* subscribe */
-.Subscribe {
-  font-family: AvenirNext;
-  font-size: 34px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.21;
-  letter-spacing: -0.4px;
-  text-align: left;
-  color: #5a6775;
-  padding-top: 54px;
-  padding-left: 44px;
-}
-.bg-color {
-  background-color: rgba(155, 155, 155, 0.06);
-  width: 1200px;
-}
-.Subscribe1 {
-  font-family: AvenirNext;
-  font-size: 13px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.38;
-  letter-spacing: normal;
-  text-align: left;
-  color: #5a6775; }
-.subscribing-area {
-  background: #F7F7F7;
-  padding-top: 9rem;
-  padding-bottom: 6rem;
-}
-.second-subscribe {
-  padding: 107px 0 66px 0;
-}
-.computer-area{
-  border-bottom: solid 1px #9a9a9a;
-  width: 364px;
-  text-align: center;
-}
-.whatsnew{
-  font-size: 34px;
-}
-.main-area-carosel {
-  max-width: 1349px;
-  margin: 0 auto;
-}
-.main-area-carosel > div{
-  max-width: 1240px;
-}
-.extea{
-  display: flex;
-  justify-content: flex-end;
-}
-.the-three-dives{
-  background-color: #fc0606;
-}
-.main-area {
-  max-width: 1319px;
-  margin: 0 auto;
-}
-
-/* subsribe */
   
   .p-three {
     display: flex;
@@ -1630,8 +2006,9 @@
     letter-spacing: 45px;
     color: #ffffff; }
   
-  
  
+  
+  
   .indicators {
     bottom: -70px !important;
     background-color: #9d9d9d !important;
@@ -1640,6 +2017,9 @@
     border-radius: 12px; }
   
   .slider-cap {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: AvenirNext;
     font-size: 36px;
     font-weight: 500;
@@ -1650,7 +2030,12 @@
     text-align: left;
     color: #c7c9c7; }
   
-   .dog-slider {
+  .slider2 {
+    opacity: 0.59;
+    background-blend-mode: multiply, multiply, multiply;
+    background-image: linear-gradient(#c7c9c7, #c7c9c7), linear-gradient(to bottom, transparent, #919ba1), linear-gradient(rgba(157, 157, 157, 0.3), rgba(157, 157, 157, 0.3)), url("/assets/images1.jpg"); }
+  
+.dog-slider {
     font-family: AvenirNext;
     font-size: 36px;
     font-weight: 500;
@@ -1661,14 +2046,41 @@
     text-align: left;
     color: #fc0606; }
   
-  
-  .carousel-indicators li {
+.slider3 {
+   
+    background-blend-mode:normal, soft-light, multiply;
+    background-image:  linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1), url("../assets/emergingtrendsgerms.jpg");
+    background-size: 100% 100%; 
+}
+.pet-owners{
+    background-blend-mode: normal, soft-light, multiply;
+    background-image: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url('../assets/emergingtrendsgerms.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.slider-business{
+    background-blend-mode: normal, multiply;
+  background-image: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1), url('../assets/emergingtrendsgerms.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.featured-customer-story{
+    background-blend-mode: normal, multiply;
+  background-image: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url('../assets/emergingtrendsgerms.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}  
+
+    .carousel-indicators li {
     max-width: 10px;
     height: 10px;
     margin-right: 10px;
     border-radius: 50%;
     background-color: #9d9d9d !important;
-    bottom: -50px; }
+    bottom: -63px;
+    border:none!important;
+      margin:6px!important;
+  }
   
   .carousel-control span {
     width: 24px;
@@ -1706,6 +2118,10 @@
     text-align: left;
     color: #fc0606; }
   
+  .sliderdog {
+    height: 435px;
+    background-blend-mode: normal, multiply;
+    background-image: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b); }
   
   .text-sm {
     mix-blend-mode: screen;
@@ -1736,6 +2152,19 @@
     line-height: 0.8;
     letter-spacing: 33px;
     color: #ffffff; }
+  
+  .Hands-on .header-text p {
+    width: 538px;
+    height: 38px;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fc0606; }
   
   .header-text p > span {
     color: #9d9d9d; }
@@ -1916,285 +2345,3 @@
     letter-spacing: normal;
     text-align: center; }
   /* top resources */
-.computer-area{
-  border-bottom: solid 1px #9a9a9a;
-  width: 364px;
-  text-align: center;
-}
-/*commons of academylandingpage01 */
-#hero01 {
-  background-blend-mode: normal, multiply;
-  background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/kittenhand.png)no-repeat;
-  background-size: 100%; 
-}
-
-#three-slider01 .first-div {
-        height: 333px;
-        background-blend-mode: normal, color, overlay, multiply;
-        background: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg") no-repeat;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start; }
-#the-three-dives01{
-          background: -moz-linear-gradient(left, #a6192e 0%, #a6192e 42%, #9c101b 45%, #9c101b 45%, #9c101b 100%);
-          background: -webkit-linear-gradient(left, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
-          background: linear-gradient(to right, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
-}
-#the-three-dives01 .col3 {
-        background-blend-mode: normal, multiply;
-        background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("../assets/col3.jpg");
-        background-size: 100% 100%; }
-      
-#the-three-dives01 .col2 {
-        background-color: #fc0606; 
-}
-      
-#the-three-dives01 .col4 {
-        background-blend-mode: normal, multiply, soft-light, multiply;
-        background: linear-gradient(rgba(166, 25, 46, 0.3), rgba(166, 25, 46, 0.3)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(rgba(252, 6, 6, 0.3), rgba(252, 6, 6, 0.3)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/cutegirl.jpg") no-repeat;
-        background-size: 100%; 
-}
-
-/* emerging tends */
-
-#hero-trends {
-  background-blend-mode: normal, multiply;
-  background:linear-gradient(rgba(4, 4, 4, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(221deg, rgb(255, 255, 255), rgb(19, 19, 19)), url(../assets/catinthehands.jpeg)no-repeat;
-  background-size: cover; 
-}
-
-
-#the-three-dives-trends{
-      background: -moz-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-      background: -webkit-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%); 
-      background: linear-gradient(to right, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-}
-
-
-#the-three-dives-trends .col3 {
-  background-blend-mode: normal, multiply;
-  background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("../assets/col3.jpg");
-  background-size: 100% 100%; }
-
-  #the-three-dives-trends .col2 {
-  background-color: #fc0606; }
-
-  #the-three-dives-trends .col4 {
-  background-blend-mode: normal, soft-light, multiply;
-  background:linear-gradient(to bottom, #353535, rgba(32, 33, 33, 0.05)), linear-gradient(#54585a, rgb(0, 0, 0)), linear-gradient(#54585a, rgba(84, 88, 90, 0.21)), url(../assets/emergingtrendsgerms.jpg) no-repeat;
-  background-size: 100%; 
-}
-
-
-#three-slider-trends .first-div {
-  height: 333px;
-  background-blend-mode: normal, color, overlay, multiply;
-  background: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg") no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; }
-
-
-
-  #logo-one-trends p {
-    opacity: 0.6 !important;
-    font-family: AvenirNext !important;
-    font-size: 36px !important;
-    font-weight: normal !important;
-    font-style: normal !important;
-    font-stretch: normal !important;
-    line-height: 1 !important;
-    letter-spacing: 26px !important;
-    text-align: left !important;
-    color: #ffffff !important;
-    padding-top: 126px !important;
-}
-      
- /* wellness */
- #hero-wellness {
-  background-blend-mode: normal, multiply;
-  background: linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/redcat.jpg") no-repeat;
-  background-size: 100%; 
-}
-#the-three-dives-well{
-    background: -moz-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-    background: -webkit-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-    background: linear-gradient(to right, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-}
-#the-three-dives-well .col3 {
-    background-blend-mode: normal, multiply;
-    background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("../assets/col3.jpg");
-    background-size: 100% 100%; 
-}
-  
-#the-three-dives-well .col2 {
-    background-color: #fc0606; 
-}
-  
-#the-three-dives-well .col4 {
-    background-blend-mode: normal, multiply, soft-light, multiply;
-    background:linear-gradient(to bottom, #353535, rgba(32, 33, 33, 0.05)), linear-gradient(#54585a, rgb(0, 0, 0)), linear-gradient(#54585a, rgba(84, 88, 90, 0.21)), url(../assets/emergingtrendsgerms.jpg) no-repeat;
-    background-size: 100%; 
-}
-#three-slider-well .first-div {
-      height: 333px;
-      background-blend-mode: normal, color, overlay, multiply;
-      background: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg") no-repeat;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start; 
-}
-
-          
-#logo-one-well p {
-  opacity: 0.6 !important;
-  font-family: AvenirNext !important;
-  font-size: 36px !important;
-  font-weight: normal !important;
-  font-style: normal !important;
-  font-stretch: normal !important;
-  line-height: 1 !important;
-  letter-spacing: 26px !important;
-  text-align: left !important;
-  color: #ffffff !important;
-  padding-top: 126px !important;
-}
-/* minimally invasive */
-
-
-#hero-invasive {
-  background-blend-mode: normal, multiply;
-  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/bulldog.jpg) no-repeat;
-  background-size: cover; 
-}
-#the-three-dives-invasive{
-background: -moz-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-background: -webkit-linear-gradient(left, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%); 
-background: linear-gradient(to right, #a6192e 0%,rgb(166, 25, 46) 42%,#9c101b 45%,#040303 45%,rgb(66, 66, 66) 100%);
-}
-
-#the-three-dives-invasive .col3 {
-background-blend-mode: normal, multiply;
-background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("../assets/col3.jpg");
-background-size: 100% 100%; 
-}
-#the-three-dives-invasive .col4 
-{
-  background-blend-mode: normal, soft-light, multiply;
-  background-image: linear-gradient(rgba(21, 0, 3, 0.68), rgba(177, 158, 161, 0.3)), linear-gradient(rgba(37, 28, 28, 0.6), rgb(101, 36, 36)), linear-gradient(to bottom, #f5515f, rgb(62, 37, 41)),url(../assets/dinasaurskeleton.png);
-  background-size: 100%; 
-}
-
-#three-slider-invasive .first-div {
-height: 333px;
-background-blend-mode: normal, color, overlay, multiply;
-background: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg") no-repeat;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-}
-#logo-one-invasive p {
-      opacity: 0.6 !important;
-      font-family: AvenirNext !important;
-      font-size: 36px !important;
-      font-weight: normal !important;
-      font-style: normal !important;
-      font-stretch: normal !important;
-      line-height: 1 !important;
-      letter-spacing: 26px !important;
-      text-align: left !important;
-      color: #ffffff !important;
-      padding-top: 126px !important;
-  }
-
-  
-  /* academylandingpage */
-  #hero-alp {
-    background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/SmilingwithDogSmall.jpg") no-repeat;
-    background-size: 100%; }
-    #the-three-dives-alp{
-      background: -moz-linear-gradient(left, #a6192e 0%, #a6192e 42%, #9c101b 45%, #9c101b 45%, #9c101b 100%);
-      background: -webkit-linear-gradient(left, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
-      background: linear-gradient(to right, #a6192e 0%,#a6192e 42%,#9c101b 45%,#9c101b 45%,#9c101b 100%);
-    }
-    #three-slider-alp .first-div {
-            height: 333px;
-            background-blend-mode: normal, color, overlay, multiply;
-            background: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg") no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start; }
-  #the-three-dives-alp .col3 {
-              background-blend-mode: normal, multiply;
-              background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("../assets/col3.jpg");
-              background-size: 100% 100%; }
-            
-            #the-three-dives-alp .col2 {
-              background-color: #fc0606; }
-            
-            #the-three-dives-alp .col4 {
-              background-blend-mode: normal, multiply, soft-light, multiply;
-              background: linear-gradient(rgba(166, 25, 46, 0.3), rgba(166, 25, 46, 0.3)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(rgba(252, 6, 6, 0.3), rgba(252, 6, 6, 0.3)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/cutegirl.jpg") no-repeat;
-              background-size: 100%; }
-    
-              #logo-one-alp p {
-                opacity: 0.6 !important;
-                font-family: AvenirNext !important;
-                font-size: 36px !important;
-                font-weight: normal !important;
-                font-style: normal !important;
-                font-stretch: normal !important;
-                line-height: 1 !important;
-                letter-spacing: 26px !important;
-                text-align: left !important;
-                color: #ffffff !important;
-                padding-top: 126px !important;
-}
-
-/* painmanagment */
-#hero-pain {
-  background-blend-mode: normal, multiply;
-  background-image: linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/doctor-w-dog.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%; }
-  #the-three-dives-pain .col3 {
-    background-blend-mode: normal, multiply;
-    background-image: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(rgba(90, 103, 117, 0.3), rgba(90, 103, 117, 0.3)), url("/assets/col3.jpg");
-    background-size: 100% 100%; }
-  
-    #the-three-dives-pain .col2 {
-    background-color: #fc0606; }
-  
-    #the-three-dives-pain .col4 {
-    background-blend-mode: normal, multiply, soft-light, multiply;
-    background-image: linear-gradient(rgba(166, 25, 46, 0.3), rgba(166, 25, 46, 0.3)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(rgba(252, 6, 6, 0.3), rgba(252, 6, 6, 0.3)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/sad-dog.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%; }
-  
-
-#three-slider-pain .first-div {
-    height: 333px;
-    background-blend-mode: normal, color, overlay, multiply;
-    background-image: linear-gradient(rgba(208, 2, 27, 0.6), rgba(208, 2, 27, 0.6)), linear-gradient(#a6192e, #a6192e), linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), url("../assets/cutegirl.jpg");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; }
-   
-#logo-one-pain p {
-            opacity: 0.6;
-            font-family: AvenirNext;
-            font-size: 36px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1;
-            letter-spacing: 33px;
-            text-align: left;
-            color: #ffffff;
-            padding-top: 126px;
-            text-transform: uppercase;
-          }
-              
-
