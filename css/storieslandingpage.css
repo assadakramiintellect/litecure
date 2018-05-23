@@ -382,6 +382,9 @@
   color: #fc0606;
   margin-top: 17px;
 }
+.image-manage{
+  position: relative;
+}
 .ctx-image1{
   position: absolute;
     z-index: 54;
