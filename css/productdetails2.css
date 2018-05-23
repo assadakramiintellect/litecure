@@ -942,7 +942,9 @@ padding-left: 2px;
   height: 245px;
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+  justify-content: flex-end;
+  padding-bottom: 44px;
+
 }
 
 .three-rows-empower .empower-three-row .empower-third-text-two p{
@@ -955,6 +957,7 @@ padding-left: 2px;
   letter-spacing: 0.1px;
   text-align: right;
   color: #c7c9c7;
+  padding-right: 50px;
 }
   /* roi analysis */
 .roi-analysis{
