@@ -191,7 +191,7 @@
 .ctx-section{
   z-index: 9;
   background:  #f7f7f7;
- min-height: 2438px;
+ min-height: 2253px;
 }
 .ctx-section  .feaured-product-pic {
   display: flex;
@@ -225,12 +225,12 @@
 }
 .ctx-image1{
   position: absolute;
-    z-index: 54;
-    width: 823px;
-    height: 617px;
-    top: 546px;
-    right: 20px;
-    margin: 0 auto;
+  z-index: 54;
+  width: 701px;
+  height: 516px;
+  top: 582px;
+  right: 20px;
+  margin: 0 auto;
 }
 
 
@@ -259,7 +259,7 @@
 
 .ctx-section .carousel-indicators {
     position: absolute;
-    bottom: 0px!important;
+    bottom: -45px!important;
     left: 50%;
     z-index: 15;
     width: 60%;
@@ -442,7 +442,26 @@ padding-left: 2px;
 .product-area .image-container{
   
 }
+.machine-middle-one{
+  display: flex;
+  justify-content: center;
+}
+.machine-middle-img-one{
+  width: 368px;
+  height: 231px;
 
+}
+.machine-middle-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 24px;
+
+}
+.machine-middle-img-two{
+  width: 219.2px;
+  height: 121.2px;
+}
 
 /* slider1 */
 
@@ -812,7 +831,7 @@ padding-left: 2px;
 
 /* EDS */
 .three-rows-empower{
-  height: 460px;
+  height: 100%;
 }
 .three-rows-empower .empower-first-row{
   height: 104px;
@@ -848,6 +867,7 @@ padding-left: 2px;
   justify-content: flex-end;
   align-items: center;
   height: 104px;
+  padding-right: 42px;
 }
 .three-rows-empower .empower-two-row .empower-second-text-one p{
   font-family: AvenirNext;
@@ -918,11 +938,12 @@ padding-left: 2px;
 }
 .three-rows-empower .empower-three-row .empower-third-text-one{
   padding-left: 0px!important;
-  padding-right: 0px!important;
+  padding-right: 30px!important;
   height: 245px;
   display: flex;
   align-items: center;
   padding-bottom: 20px;
+  justify-content: flex-end;
 }
 
 .three-rows-empower .empower-three-row .empower-third-text-one p{
@@ -958,6 +979,15 @@ padding-left: 2px;
   text-align: right;
   color: #c7c9c7;
   padding-right: 50px;
+}
+.cheeni-dan{
+  position: absolute;
+  z-index: 54;
+  width: 396px;
+  height: 365px;
+ 
+  left: 50px;
+  margin: 0px auto;
 }
   /* roi analysis */
 .roi-analysis{
