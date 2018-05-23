@@ -27,7 +27,6 @@
 
 .menu .bottom-down {
   background-position: 0 40%;
-  background-color: #A0A3A2;
   padding-bottom: 50px;
   padding-top: 50px;
   height: 370px;
@@ -108,7 +107,9 @@
   line-height: 2;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #9d9d9d; }
+  color: #9d9d9d;
+  padding-bottom: 70px;
+}
 
 .menu .secondnav12 {
   mix-blend-mode: screen;
@@ -452,8 +453,8 @@
   cursor: pointer; }
 
 .close-div {
-  height: 28px;
-  width: 28px;
+  height: 34px;
+  width: 34px;
   opacity: 0.6;
   border: 1px solid #fff;
   border-radius: 50%;
@@ -464,7 +465,7 @@
   margin-left: 6px; }
 
 .close-div i {
-  padding-top: 3px;
+  padding-top: 6px;
   padding-left: 1px; }
 
 .bg-color {
