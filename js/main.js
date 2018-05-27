@@ -44,13 +44,17 @@ $(document).ready(function(){
     $(".icons-1 ").on("click", function(){
         $(".caption-icons-1").show();
         $(".icons-1").hide();
-    })  
+    })
     $(".caption-icons-1").on("click", function(){
         $(".caption-icons-1 ").hide();  
         $(".icons-1").show();  
         
     })
-    });
+    $(".main-container-there > div").on('click', function () {
+        $(".main-container-there > div").removeClass("activated");
+        $(this).addClass("activated");
+    })
+});
 var y = document.getElementById("hidden");//hidey()
 
 var x = document.getElementById("showen");//hide()

@@ -1,0 +1,1084 @@
+p{
+
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url("../fonts/AvenirNextLTPro-Regular.otf"); 
+}body{
+    font-family: AvenirNext!important;
+}
+/************************************************* header section start  ***********************************************/
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/smilingdog.jpg
+    ) no-repeat;
+    background-size: 100% auto;
+    height: 815px}
+
+.hero-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.main-container{
+    width:1287px;
+    margin:auto;
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
+
+.container-1{
+    display:flex;
+    justify-content: space-between;
+    padding-top:45px;
+}
+.container-1:nth-child(1){
+    padding-left: 39px;
+}
+.headerlogo img{
+    width: 135px;
+    height: 56px;
+
+}
+.welcome-logo{
+    height: 72px;
+    opacity: 0.6;
+    font-size: 41px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 43px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 8px;
+    font-family: AvenirNext;
+    padding-left: 45px;
+}
+.logo {
+    opacity: 0.6;
+    font-family: AvenirNext;
+    font-size: 43px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 41px;
+    color: #ffffff;
+    padding-top: 8px;
+    margin-right: -19px;
+}
+/*   wellcome  & logo */
+.container-2{
+    display:flex;
+    justify-content: space-between;
+}
+.left-list{
+    padding-left: 41px;
+    padding-top: 40px;
+}
+
+.left-list a{
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    font-family: AvenirNext;
+}
+.left-list a:hover{
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration:none;
+}
+.text-center{
+    width: 61.4px;
+    opacity: 0.6;
+    border-radius: 6px;
+    background-color: #333333;
+    padding-top: 8px;
+    padding-bottom: 22px;
+    margin-top: 19px;
+    margin-right: 4px;
+}
+.icons{
+    padding-top: 5px;
+}
+
+.magnifier a img{
+    width: 21px;
+    height: 22px;
+    margin: 7px auto;
+}
+.person a img{
+    width: 21px;
+    height: 22px;
+    margin: 6px auto 6px 1px;
+}
+.chaticon a img{
+    width: 33px;
+    height: 25px;
+    margin: 17px auto 7px auto;
+}
+.telephone a img{
+    width: 23px;
+    height: 22px;
+    margin: 7px auto;
+}
+.globe a img{
+    width: 27px;
+    height: 24px;
+    margin: 7px auto 7px 2px;
+}
+.icons > div a img:nth-child(2){
+    width: 21px;
+    height: 22px;
+}
+.container-computer{
+    position: relative;
+    margin-top: 94px;
+}
+.computer-area{
+    width: 254px;
+    border-bottom: 1px solid #fff;
+    position:relative;
+    left:-30px;
+
+
+}
+.computer-area img{
+    padding-left: 42px;
+    width: 220px;
+    height: 90px;
+
+}
+/* container 3 */
+.container-3{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 49px;
+
+}
+.container-3 .secondnav1{
+    padding-left:42px;
+}
+.container-3 .secondnav1 a{
+    opacity: 0.9;
+    font-size: 16px;
+    font-family:  AvenirNext;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #9d9d9d;
+}
+.container-3 .secondnav1 a:hover,
+.container-3 .secondnav1 a:visited,
+.container-3 .secondnav1 a:active,
+.container-3 .secondnav1 a:focus
+{
+    text-decoration: none;
+    color:#9d9d9d;
+}
+
+.container-3 .secondnav1 .active .white-color{
+    color:#ffffff;
+}
+.play-logo {
+    display: flex;
+    flex-direction: row-reverse;
+    opacity: 0.9;
+    mix-blend-mode: color-dodge;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    color: #fc0606;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 6px 18px 23px;
+}
+.play-logo p{
+    margin-right: 12px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+}
+.arrow-img {
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: 4px solid red;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+.arrow-img img {
+    width: 41px;
+    height: 63px;
+    padding-left: 6px;
+}
+.secondnav2{
+    font-family: AvenirNext;
+    color: #9d9d9d;
+    padding-top: 7px;
+}
+.secondnav2 p{
+    padding-right: 51px;
+}
+
+
+/*********************** empty-red-section *********************/
+  .empty-div{
+    background-color: #fc0606;
+    height:60px;
+  }
+
+/************************ three-dives ****************************/
+.the-three-dives{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+    
+  }
+  .primary-container-div{
+    margin:auto;
+    width:1349px;
+  
+  }
+  .the-three-dives .main-container-there{
+    display:flex;
+    background-blend-mode: normal, multiply;
+    background-image: linear-gradient(rgba(245, 166, 35, 0.21),
+    rgba(245, 166, 35, 0.21)), linear-gradient(rgba(90, 103, 117, 0.3),
+    rgba(90, 103, 117, 0.3)),url(../assets/headphoneson.jpg);
+    background-size: 100% auto;
+  }
+
+  .the-three-dives .main-container-there > div{
+    width:479px;
+    height:413px;
+    
+  }
+  .the-three-dives .main-container-there .science{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-top: 39px;
+      padding-left: 18px;
+      position: relative;
+  }
+  .inner-area-container{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.41;
+      background-color: #d8d8d8;
+    
+  }
+  .the-three-dives .main-container-there .science h3{
+      font-family: AvenirNext;
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: -0.5px;
+      text-align: left;
+      color: #ffffff;
+      margin-top: 0px;
+  }
+  .the-three-dives .main-container-there .science img{
+      height: 78px;
+      width: 78px;
+      padding-bottom: 8px;
+      margin-bottom: 0px;
+  }
+  .the-three-dives .main-container-there .education{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      padding-top: 36px;
+      padding-left: 48px;
+   
+  }
+  .the-three-dives .main-container-there .education h3{
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0px;
+}
+.inner-area-container-one{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.41;
+    background-color: #d8d8d8;
+    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
+    background-image: linear-gradient(#d8d8d8, #d8d8d8);
+
+}
+
+
+.the-three-dives .main-container-there .stories{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 41px;
+    position: relative;
+}
+  
+.the-three-dives .stories h3 {
+    font-family: AvenirNext;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 0px;
+}
+.stories img{
+  height: 59px;
+  width: 59px;
+  padding-bottom: 15px;
+}
+/* schdeule a demo */
+.schedule-demo{
+   
+  background-blend-mode: normal, multiply, soft-light, multiply;
+  background: linear-gradient(rgba(166, 25, 46, 0.3),
+   rgba(166, 25, 46, 0.3)), linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)),
+   linear-gradient(rgba(252, 6, 6, 0.3), rgba(252, 6, 6, 0.3)), 
+   linear-gradient(to bottom, #f5515f, #9f041b),url(../assets/dogtreated.jpg);
+   background-size: 100% auto;
+}
+.schedule-demo .schedule-demo-content{
+width: 1349px;
+    margin: 0 auto;
+    height: 670px;
+}
+.schedule-demo .icons-share{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    height: 111px;
+    margin-left: 62px;
+    margin-right: 54px;
+}
+.schedule-demo .icons-share .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+
+}
+.schedule-demo .icons-share .icons p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 34px;
+    margin-bottom: 0px;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+}
+.schedule-demo .icons-share .icons i{
+    font-size: 20px;
+    margin-right: 6px;
+}
+.schedule-demo .icons-share .share {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 170px;
+
+}
+.schedule-demo .icons-share .share p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 170px;
+    font-family: AvenirNext;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.schedule-demo .mid-schdeule-content{
+    height: 418px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 48px;
+}
+.schedule-demo .mid-schdeule-content h1{
+    transform: rotate(-360deg);
+    opacity: 0.9;
+    font-family: AvenirNext;
+    font-size: 61px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 14px;
+}
+.schedule-demo .mid-schdeule-content p{
+
+font-family: AvenirNext;
+font-size: 15px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.47;
+letter-spacing: 0.1px;
+text-align: center;
+color: #ffffff;
+width: 649px;
+padding-top: 52px;
+
+}
+.schedule-demo .learn-more{
+    height: 111px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.schedule-demo .learn-more .content-div{
+    width: 225px;
+    display: flex;
+    justify-content: center;
+    padding-right: 4px;
+}
+.schedule-demo .learn-more .content-div  .content-div-inside{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+.schedule-demo .learn-more .content-div  .content-div-inside p{
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    font-family: AvenirNext;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ffffff;
+}
+.schedule-demo .learn-more .content-div  .content-div-inside div{
+    background: red;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+.schedule-demo .learn-more .content-div  .content-div-inside div i{
+    width: 44.8px;
+    height: 43.9px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+
+/* Customer support team */
+.customer-support-one{
+    background-color: #54585a;
+}
+.customer-support{
+    background-color: #54585a;
+    width: 1349px;
+    height: 100%;
+    margin: 0 auto;
+}
+.customer-support .top-content{
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 97px;
+
+}
+.customer-support .top-content h1{
+    font-family: AvenirNext;
+    font-size: 39px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.customer-support .outer-container{
+    position: relative;
+    width: 367px;
+    height: 346px;
+    display: inline;    
+}
+.customer-support .outer-container:nth-child(4){
+    position: relative;
+    width: 367px;
+    height: 346px;
+    display: inline;    
+    margin-left: 85px;
+}
+
+.customer-support .hovering-area{
+    width: 367px;
+    height: 346px;
+    position: absolute;
+    top: -161px;
+    left: 11px;
+    bottom: 0;
+    right: 0;
+    display: none;
+    background-image: url(../assets/dpimage.png);
+}
+.customer-support .outer-container:hover .hovering-area{
+    display: inline;
+    opacity:1;
+}
+.customer-support .outer-container:hover {
+    display: inline;
+    opacity:1!important;
+}
+
+hr{
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+    border: 0!important;
+    border-top: 1px solid black!important;
+}
+.customer-support .hoverd-images img:hover{
+    opacity: 1;
+}
+.customer-support .hoverd-images img{
+    margin: 10px;
+    opacity: 0.4;
+}
+.hovering-area hr{
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+    border: 0!important;
+    border-top: 1px solid black!important;
+    width: 300px;
+
+}
+.customer-support .hovering-area p:first-child{
+    width: 305px;
+    height: 27px;
+    font-family: AvenirNext;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 176px;
+    padding-left: 34px;
+  }
+.customer-support .hovering-area p.second-paragraph{
+    width: 310px;
+  height: 34px;
+  font-family: AvenirNext;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fc0606;
+    padding-left: 34px;
+  }
+.customer-support .hovering-area p:last-child{
+    width: 341px;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2px;
+    padding-top: 29px;
+
+}
+
+
+  .customer-support .hovering-area p:last-child  i{
+    width: 7.4px;
+    height: 14px;
+    color: white;
+  }
+
+.customer-support .hoverd-images{
+    width: 1291px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    display: inline;
+    margin-left: 85px;
+}
+
+
+.customer-support .top-content p{
+    font-family: AvenirNext;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fc0606;
+}
+.customer-support .dog-hug{
+    display: flex;
+    flex-direction: row;
+    padding-top: 124px;
+    margin-top: 100px
+}
+.customer-support .dog-hug .dog{
+    display: flex;
+    flex-direction: row;
+    width: 560px;
+    height: 519px;
+    background-image: url(../assets/hugdog.png);
+}
+.customer-support .dog-hug .dog p{
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+    padding-left: 68px;
+    padding-top: 47px;
+}
+.customer-support .dog-hug-content {
+    width: 749px;
+    margin-left: 48px;
+}
+.customer-support .dog-hug-content .dog-hug-content-inside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 47px;
+}
+.customer-support .dog-hug-content .dog-hug-content-inside p{
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ff0505;
+}
+.customer-support .dog-hug-content .dog-hug-content-inside div{
+    display: flex;
+    justify-content: space-between;
+    width: 242px;
+    padding-right: 52px;
+}
+.customer-support .dog-hug-content .dog-hug-content-inside div p{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+    margin-bottom: 0px;
+}
+.customer-support .dog-hug-content .dog-hug-content-inside div p i{
+    padding-right: 4px;
+    font-weight: lighter;
+    font-size: 19px;
+
+}
+.customer-support .dog-hug-content .dog-hug-big-content h1{
+    width: 423px;
+    height: 68px;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 45px;
+}
+.customer-support .dog-hug-content .dog-hug-big-content p{
+    width: 649px;
+    height: 197px;
+    opacity: 0.6;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+/* qoutation section */
+.qoutation{
+    background-color: #f7f7f7;
+    height: 749px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    
+}
+.qoutation .qoutation-inside{
+    width: 1349px;
+    margin: 0 auto;
+}
+.qoutation .qoutation-inside .qoutation-inside-qoute{
+    width: 1122px;
+    margin-left: 62px;
+}
+.qoutation .qoutation-inside .qoutation-inside-qoute p{
+    height: 320px;
+    transform: rotate(-360deg);
+    font-family: AvenirNext;
+    font-size: 61px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: -1.1px;
+    text-align: left;
+    color: #c7c9c7;
+}
+.qoutation .qoutation-inside .qoutation-owner{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 124px;
+}
+.qoutation .qoutation-inside .qoutation-owner p{
+    font-family: AvenirNext;
+    font-size: 27px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #54585a;
+}
+.qoutation .qoutation-inside .qoutation-owner p span{
+    color: #fc0606;
+}
+
+/************************ subsribe start **************************/
+
+.subscribe-container{
+    width: 1349px;
+    margin:0 auto;
+    background-color: #f7f7f7;
+}
+.main{
+    background-color: #f7f7f7;
+}
+.subscribing-area{
+    display: flex;
+    justify-content: flex-end;
+    height: 650px;
+    width: 1349px;
+    background-color: #f7f7f7;
+    margin:0 auto;
+
+}
+.sub{
+
+    width: 1215px;
+    height: 409px;
+    background-color: rgba(155, 155, 155, 0.06);
+    margin-top: 159px;
+    margin-bottom: 81px
+}
+/* subscribe */
+
+.Subscribe {
+    font-family: AvenirNext;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #5a6775;
+    padding-top: 51px;
+    padding-left: 40px;
+}
+
+.Subscribe1 span{
+    width: 39px;
+    height: 21px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #5a6775;
+    padding-left: 8px;
+}
+.Subscribe1 .float-right{
+    width: 68px;
+    height: 22px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #5a6775;
+}
+.Subscribe1 p{
+    display: block;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+
+.second-subscribe {
+    width: 600px;
+    float: right;
+    padding-right: 146px;
+    padding-top: 4px;
+
+
+}
+.second-subscribe hr{
+    border: solid 1px #d1d1d6!important;
+    margin-top: 6px!important;
+}
+
+
+/* subsribe end */
+/* footer area star */
+
+.footer-container{
+
+    background-color: rgb(239, 238, 238);
+
+}
+.foot{
+    width: 1349px;
+    background-color:rgb(239, 238, 238);
+    margin:0 auto;
+}
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: auto;
+    padding-right: 50px;
+    margin:0 auto;
+    padding-bottom: 45px;
+}
+.footer-area .list1{
+    padding: 36px 0px 0 144px;
+}
+.footer-area .list2{
+    padding: 36px 0px 0 24px;
+}
+.footer-area .list3{
+    padding: 36px 0px 0 50px;
+}
+.footer-area .list4{
+    padding: 36px 0px 0 28px;
+}
+.footer-area .list5{
+    padding: 31px 0px 0 21px;
+}
+.redcolor p{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.footer-area .list3 i{
+    padding: 53px 0px 0 10px;
+    width: 20px;
+    height: 16px;
+
+}
+
+.footer {
+    background-color: rgba(155, 155, 155, 0.06);
+    height: 100%; }
+
+.redcolor {
+    color: #fc0606;
+    padding-bottom: 20px
+}
+
+
+.footer-menu {
+    width: 150px;
+    height: 224px;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+}
+.footer-menu p{
+    font-family: AvenirNext;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.footer-paragraph p{
+    width: 222px;
+    font-family: AvenirNext;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+}
+.footer-menu1 .text-bold{
+    font-weight: bold;
+    color: #5A6775;
+}
+
+.footer-menu-last p {
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #8e8e93;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.Copyright-area{
+    margin-top: 50px;
+}
+.socialicons {
+    font-size: 25px;
+    margin-left: 20px;
+    color: #fc0606;
+}
+.socialicon1 {
+    font-size: 25px;
+    color: #fc0606;
+}
+
+
+.Copyright-area .footer-menu-last{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 125px;
+}
+.Copyright-area .footer-menu-last .terms{
+    display: flex;
+
+}
+.Copyright-area .reserved{
+    padding-left: 30px;
+
+}
+.Copyright-area .footer-menu-last .terms p{
+    font-size: 11px;
+    padding: 0 20px;
+}
+
+ /* footer area end */
+
+
