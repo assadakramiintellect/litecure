@@ -33,7 +33,7 @@
   padding-top:18px;
 }
 .menu  .headerlogo {
-    padding-top: 30px;
+    padding-top: 27px;
     padding-left: 55px;
     display: flex;
     justify-content: flex-start;
@@ -112,11 +112,14 @@
     padding-top: 40px;
 }
 .menu .left-list .give-margin{
-    margin-left:60px;
+    margin-left: 46px;
     display: none;
 }
 .menu .left-list .give-margin-less{
     margin-left: 3rem;
+    display: none;
+}
+.evidence, .fade-one, .fade-two, .fade-three{
     display: none;
 }
 .menu .left-list .evidence-menu{
@@ -149,6 +152,9 @@
   color: #ffffff;
   cursor: pointer;
   text-decoration:none;
+}
+.menu .second-hidden{
+    padding-left: 92px;
 }
 .menu .text-center{
     width: 61.4px;
@@ -249,7 +255,7 @@
   height: 24px;
   margin: 7px auto 7px 2px;
 }
-,menu .icons > div a img:nth-child(2){
+.menu .icons > div a img:nth-child(2){
   width: 21px;
   height: 22px;
 }
@@ -306,15 +312,7 @@
   line-height: 2.15;
   letter-spacing: 0.4px;
   text-align: left;
-  color: #9d9d9d!important;
-}
-.menu  .container-3-one  .secondnav1 a:hover,
-.menu  .container-3-one  .secondnav1 a:active,
-.menu  .container-3-one  .secondnav1 a:visited,
-.menu  .container-3-one  .secondnav1 a:focus
-{
-  text-decoration: none;
-  color:#ffffff;
+  color: #9d9d9d;
 }
 .menu  .secondnav1 .active .white-color{
   color:#ffffff!important;
@@ -366,6 +364,44 @@
 .menu .secondnav2 p{
   padding-right: 32px;
 }
+.evidence a:first-child{
+    padding-left: 0;
+}
+.evidence a{
+    padding-left: 23px;
+}
+.education a:first-child{
+    padding-left: 0;
+}
+.education a{
+    padding-left: 23px;
+}
+.partnership a:first-child{
+    padding-left: 0;
+}
+.partnership a{
+    padding-left: 23px;
+}
+.extra-style{
+    color: #fc0606!important;
+}
+.extra-color{
+    color: #9D9D9D!important;
+}
+.inner-area-menu{
+    display: none;
+    padding-left: 72px;
+}
+.inner-area-menu a{
+    color: #ffffff!important;
+    padding-left: 30px;
+}
+.inner-area-menu a:first-child{
+    padding-left: 0;
+}
+.secondnav1 > div {
+    display: flex;
+}
 
 
 
@@ -378,4 +414,7 @@
 .bottom-color{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
     height: 390px;
+}
+.custom-row {
+    display: flex;
 }

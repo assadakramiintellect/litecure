@@ -11,41 +11,68 @@
     <link rel="stylesheet" href="css/dashboard.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
 <body>
-
 <!--the manu which is hidden-->
 <div id="hidden" class="menu"   >
     <section class="hero" id="hero1">
         <div class="custom-container">
             <div class="container-1-one">
                 <div class="white-color headerlogo" >
-                    <img src="assets/logos/whitelitecure.png" class="top-logo" alt="companion" width="144px" height="62px">
+                    <a href="/home.html"><img src="assets/logos/whitelitecure.png" class="top-logo" alt="companion" width="144px" height="62px"></a>
                 </div>
-                <div class="headerlogo1 logo" onclick="hidey()"><p>CLOSE<span><i class="fa fa-close"></i></span></p></div>
+                <div class="headerlogo1 logo"><p>CLOSE<span><i class="fa fa-close"></i></span></p></div>
             </div>
             <div class="container-2-one">
                 <div class=" white-color secondnav left-list text-left ">
-                    <div class="custom-row">
+                    <div class="outer-row custom-row">
                         <div class="evidence-menu" data-show="fade-1"><a href="#">evidence</a></div>
-                        <div class="give-margin fade-1"><a href="#">publications</a></div>
-                        <div class="give-margin-less fade-1"><a href="#">advisory board</a></div>
-                        <div class="give-margin-less fade-1"><a href="#">ongoing research</a></div>
+                        <div class="give-margin fade-1 evidence" >
+                            <a href="#">publications</a>
+                            <a href="#">advisory board</a>
+                            <a href="#">ongoing research</a>
+                        </div>
                     </div>
-                    <div class="custom-row">
+                    <div class="custom-row inner-row second-hidden">
+                        <div class="give-margin fade-one"><a href="#">case studies</a></div>
+                        <div class="give-margin-less fade-one"><a href="#">companion animal studies</a></div>
+                        <div class="give-margin-less fade-one"><a href="#">research studies</a></div>
+                        <div class="give-margin-less fade-one"><a href="#">articles</a></div>
+                    </div>
+
+                    <div class="custom-row outer-row">
                         <div class="education-menu"  data-show="fade-2"><a href="#"> education</a></div>
-                        <div class="give-margin fade-2"><a href="#">Litecure Academy</a></div>
-                        <div class="give-margin-less fade-2"><a href="#">live education</a></div>
-                        <div class="give-margin-less fade-2"><a href="#">webinars &amp; resources</a></div>
+                        <div class="give-margin fade-2 education">
+                            <a href="#">Litecure Academy</a>
+                            <a href="#">webinars &amp; resources</a>
+                            <a href="#">live education</a>
+
+                        </div>
                     </div>
-                    <div class="custom-row">
+                    <div class="custom-row inner-row second-hidden">
+                        <div class="give-margin fade-two"><a href="#">Pain management</a></div>
+                        <div class="give-margin-less fade-two"><a href="#">Minimally invasive</a></div>
+                        <div class="give-margin-less fade-two"><a href="#">wellness</a></div>
+                        <div class="give-margin-less fade-two"><a href="#">emerging trends</a></div>
+                        <div class="give-margin-less fade-two"><a href="#">school of business</a></div>
+                    </div>
+                    <div class="custom-row outer-row">
                         <div class="partner-menu" data-show="fade-3"><a href="#">partnership</a></div>
-                        <div class="give-margin fade-3"><a href="#">stories</a></div>
-                        <div class="give-margin-less fade-3"><a href="#">team members</a></div>
-                        <div class="give-margin-less fade-3"><a href="#">employees</a></div>
+                        <div class="give-margin fade-3 partnership">
+                            <a href="#">stories</a>
+                            <a href="#">team members</a>
+                            <a href="#">employees</a>
+                        </div>
+                    </div>
+                    <div class="custom-row inner-row second-hidden">
+                        <div class="give-margin fade-three"><a href="#">customers</a></div>
+                        <div class="give-margin-less fade-three"><a href="#">clinical</a></div>
+                        <div class="give-margin-less fade-three"><a href="#">business</a></div>
+                        <div class="give-margin-less fade-three"><a href="#">pet owners</a></div>
                     </div>
                 </div>
                 <div class="text-center">
@@ -90,7 +117,17 @@
             </div>
             <div class="container-3-one">
                 <div class=" secondnav1">
-                    <div class="active"><a href="#" class="white-color">companion products</a></div>
+                    <div class="active">
+                        <a href="#" class="white-color">companion products</a>
+                        <div class="inner-area-menu">
+                            <a href="#">photobiomodulation</a>
+                            <a href="#">regenerative medicine</a>
+                            <a href="#">diagnostics</a>
+                            <a href="#">hydrotherapy</a>
+                            <a href="#">cold compression</a>
+                            <a href="#">business</a>
+                        </div>
+                    </div>
                     <div class=""><a href="#">companion animal health</a></div>
                     <div class=""><a href="#">employment</a></div>
                     <div class=""><a href="#">blog</a></div>
@@ -108,7 +145,6 @@
 </div>
 <!--the section which is hidden -->
 <!--this the main header dog and girl wala section -->
-
 <div id="showen">
     <section class="hero" id="hero">
         <div class="custom-container">
@@ -141,7 +177,7 @@
     <section class="menudiv ">
         <div class="custom-container">
             <div class="custom-row">
-                <div class=" style " onclick="hide()">
+                <div class="style show-menu">
                     <p> <i class="fa fa-plus  " ></i><span class="mt-3">MENU</span></p>
                 </div>
             </div>
