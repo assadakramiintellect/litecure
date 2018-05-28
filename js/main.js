@@ -20,10 +20,10 @@ $(document).ready(function(){
     $(".fa-search").on("click",function(){
         $(".icons-1").fadeOut();
     })
-    $(".secondnav .row > div:first-child").on("click", function(){
+    $(".secondnav .custom-row > div:first-child").on("click", function(){
         $("."+$(this).data("show")).toggle();
-        $(".secondnav .row > div:first-child").css('text-decoration','none');
-        $(".secondnav .row > div:first-child").css('opacity','0.6');
+        $(".secondnav .custom-row > div:first-child").css('text-decoration','none');
+        $(".secondnav .custom-row > div:first-child").css('opacity','0.6');
         $(this).css('text-decoration','underline');
         $(this).css('opacity','1');
         switch($(this).data("show")){
@@ -40,21 +40,25 @@ $(document).ready(function(){
             $(".fade-1").hide();
             break;
         }
-    })
-    $(".icons-1 ").on("click", function(){
+    });
+    $(".icons-one ").on("click", function(){
+        console.log('iconsnotclicked');
         $(".caption-icons-1").show();
-        $(".icons-1").hide();
-    })
+        $(".menu .text-center").css('opacity','1');
+        $(".icons-one").hide();
+    });
     $(".caption-icons-1").on("click", function(){
+        console.log('iconscllicked');
+        $(".menu .text-center").css('opacity','0.6');
         $(".caption-icons-1 ").hide();  
-        $(".icons-1").show();  
+        $(".icons-one").show();
         
-    })
+    });
     $(".main-container-there > div").on('click', function () {
         $(".main-container-there > div").removeClass("activated");
         $(this).addClass("activated");
     })
-});
+    });
 var y = document.getElementById("hidden");//hidey()
 
 var x = document.getElementById("showen");//hide()

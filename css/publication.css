@@ -87,7 +87,7 @@
 /*****************************************next section start three red div  ***********************************/
 .button-red-div{
 background-color: #fc0606;
-height:60px;
+height:56px;
 
 
 }
@@ -101,12 +101,12 @@ height:60px;
 .button-flex>div{
   background:linear-gradient(to right, rgba(194, 19, 1,1), rgba(194, 19, 1, 1));
   border-radius:0px 8px 8px 0px;
-  height:58px;
-  width:198px;
+  height: 54px;
+    width: 194px;
 }
 .button-flex .icon-text{
   display:flex;
-  margin:8px 69px;
+  margin:5px 63px;
 }
 .button-flex .icon-text i{
     height: 39px;
@@ -124,7 +124,7 @@ height:60px;
 }
 .button-flex .icon-text p{
   font-family: AvenirNext;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -133,7 +133,7 @@ height:60px;
   text-align: left;
   color: #fc0606;
   margin-top:12px;
-  margin-left:14px;
+  margin-left:21px;
   cursor: pointer;
 }
 
@@ -148,11 +148,11 @@ height:60px;
   display: flex;
   margin:auto;
   width:1287px;
-  padding-bottom:33px;
+  padding-bottom:14px;
 }
 .back-to-previous {
-    margin: 58px 50px 50px 30px;
-   }
+    margin:69px 50px 50px 32px;
+}
  .back-to-previous p   {
     display: flex;
     font-family: AvenirNext;
@@ -191,6 +191,9 @@ margin-left:60px;
     display: flex;
     flex-direction: row;
     margin-top:52px;
+}
+.container-main-wrapper .list-container .shere{
+  padding-left:5px;
 }
 .container-main-wrapper .list-container .list-area .fa{
   font-size:18px;
@@ -255,6 +258,7 @@ margin-left:60px;
     letter-spacing: 1.4px;
     text-align: left;
     color: #ffffff;
+    margin-bottom:3px;
 }
 .container-main-wrapper .date-left p{
   width: 312px;
@@ -273,10 +277,10 @@ margin-left:60px;
   margin:18px 0px 0px 77px;
 }
 .download-button{
-  width: 292px;
+  width: 271px;
   opacity: 0.6;
   font-family: AvenirNext;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -287,26 +291,28 @@ margin-left:60px;
   border-radius:5px;
   border:2px solid #ffffff;
   background:transparent;
-  padding:13px;
+  padding:14px;
 }
 .container-main-wrapper  .footer-div{
-  margin-top:50px;
+  margin-top:56px;
 }
 .container-main-wrapper  .footer-div p{
-  font-size: 24px;
+  font-size: 20px;
   color: #c7c9c7;
   padding-top:3px;
+   letter-spacing: 1.3px;
 }
 .container-main-wrapper  .footer-div p:first-child{
    font-family: AvenirNext;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
+  letter-spacing: 1.3px;
   text-align: left;
   color: #ffffff;
+  margin-bottom:0px;
    
 }
 .footer-div-relation p{
@@ -314,15 +320,17 @@ margin-left:60px;
   height: 38px;
   opacity: 0.6;
   font-family: AvenirNext;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
+  letter-spacing: 1.3px;
   text-align: left;
   color: #c7c9c7;
-  margin-top:90px;
+  margin-top:123px;
+  position: relative;
+    right: 12px;
 }
 
 
@@ -346,19 +354,19 @@ margin-left:60px;
   background-color: #3f4446;
   margin:auto;
   flex-direction: row-reverse;
-  height:598px;
+  height:565px;
 }
 .video-flex{
   flex-direction:row-reverse;
   background-color:#54585a;
 }
 .list-course .video-div{
-  width: 510px;
-  height: 323px;
+  width: 489px;
+  height: 317px;
   background: linear-gradient(rgba(166, 25, 46, 0.5), rgba(166, 25, 46, 0.5)), linear-gradient(223deg, rgba(166, 25, 46, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/triangles.jpg) no-repeat;
   background-size: 100%;
   border-radius:5px;
-  margin-left:65px;
+  margin-left:78px;
 
 }
 .arrow-img {
@@ -387,6 +395,9 @@ margin-left:60px;
 }
 .image-video{
   padding-top:57px !important;
+}
+.text-side{
+  padding-top:76px !important;
 }
 .list-course  .video-text{
    width: 284px;
@@ -443,18 +454,18 @@ margin-left:60px;
   color: #ffffff;
 }
 .two-div-flex .paragraph-container{
-  margin:69px 0px 0px 31px;
+  margin:49px 0px 0px 31px;
 }
 .two-div-flex .paragraph-container .paragraph{
-  padding-right:44px;
+  padding-right:33px;
 }
  
  .paragraph-container p{
-  width: 594px;
+  width: 582px;
   height: 504px;
   font-family: AvenirNext;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: bold;
   font-style: normal;
   font-stretch: normal;
   line-height: 1.75;
@@ -463,9 +474,10 @@ margin-left:60px;
   color: #939393;
 
 
+
 }
 .list-course{
-  padding:0px 44px 0px 14px;
+  padding:0px 54px 0px 1px;
 }
 .list-course ul{
   list-style-type: none;
@@ -480,7 +492,7 @@ margin-left:60px;
     letter-spacing: -0.1px;
     text-align: left;
     color: #939393;
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid #8d8c8c;
     padding: 8px 0px;
 }
 .list-course ul li .fa{
@@ -492,6 +504,7 @@ margin-left:60px;
     color: #fc0606;
     position:relative;
     right:17px;
+    font-size:12px;
 }
 .list-course ul li span{
   float:right;
@@ -499,7 +512,7 @@ margin-left:60px;
 /************************************* paragraph section  ***************/
 .paragraph-background{
    background-color: #54585a;
-   padding-top:106px;
+   padding-top:108px;
 }
 .paragraph-background .para-flex{
   display:flex;
@@ -513,17 +526,17 @@ margin-left:60px;
 }
 .paragraph-background .para-conatiner p{
   width: 1224px;
-  height: 432px;
+  height: 381px;
 font-family: AvenirNext;
-  font-size: 24px;
+  font-size: 21px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   line-height: 2;
-  letter-spacing: -0.1px;
+  letter-spacing: 0.6px;
   text-align: left;
   color: #c7c9c7;
-  padding-left:10px;
+  padding: 0px 44px 0px 39px ;
 }
 
 /************************************* card section  ***************/
