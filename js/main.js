@@ -42,13 +42,11 @@ $(document).ready(function(){
         }
     });
     $(".icons-one ").on("click", function(){
-        console.log('iconsnotclicked');
         $(".caption-icons-1").show();
         $(".menu .text-center").css('opacity','1');
         $(".icons-one").hide();
     });
     $(".caption-icons-1").on("click", function(){
-        console.log('iconscllicked');
         $(".menu .text-center").css('opacity','0.6');
         $(".caption-icons-1 ").hide();  
         $(".icons-one").show();
