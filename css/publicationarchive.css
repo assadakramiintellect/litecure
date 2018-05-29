@@ -310,8 +310,11 @@ body{
 /*****************************************/
 
 /* feature-publication */
-.main-area > div.further-row{
+.main-area div.further-row{
   width: 1275px;
+}
+.main-area > a:hover{
+  text-decoration: none;
 }
 .feature-publication{
   background-color:  #f7f7f7;
