@@ -71,7 +71,7 @@ $(document).ready(function(){
         $(".partnership a").toggleClass("extra-color");
         $(this).removeClass("extra-color");
     });
-    $(".secondnav1 > div > a").on("click", function (e) {
+    $(".linkingarea a").on("click", function (e) {
         e.preventDefault();
         $(".inner-area-menu").toggle();
     });
@@ -81,13 +81,13 @@ $(document).ready(function(){
         $(".menu .text-center").css('opacity','1');
         $(".icons-one").hide();
     });
-    $(".caption-icons-1").on("click", function(){
-
-        $(".menu .text-center").css('opacity','0.6');
-        $(".caption-icons-1 ").hide();  
-        $(".icons-one").show();
-        
-    });
+    // $(".caption-icons-1").on("click", function(){
+    //
+    //     $(".menu .text-center").css('opacity','0.6');
+    //     $(".caption-icons-1 ").hide();
+    //     $(".icons-one").show();
+    //
+    // });
     $(".show-menu").on("click", function () {
         $("#hidden").show();
         $("#showen").hide();

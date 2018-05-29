@@ -236,7 +236,7 @@ body{
 .the-three-dives .main-container-there > div{
   width:479px;
   height:413px;
-
+  cursor: pointer;
 }
 .the-three-dives .main-container-there .science{
   background-blend-mode: normal, multiply;
