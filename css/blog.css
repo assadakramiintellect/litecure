@@ -5,6 +5,7 @@ body{
   font-family: AvenirNext!important;
 }
 
+
 #hero {
   background-blend-mode: normal, multiply;
   background-blend-mode: normal, multiply;
@@ -176,18 +177,23 @@ body{
   background-color: #fc0606;
   height: 61px; }
 
-.menudiv {
-
-  height: 56px;
-  background-color: #fc0606;
+.custom-container{
+  width: 1319px;
+  margin: 0 auto;
+}
+custom-row{
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center; }
+}
+
+
+.menudiv {
+  background-color: #fc0606;
+  height: 57px;
+}
 
 .menudiv i {
-  height: 39px;
-  width: 39px;
+  height: 37px;
+  width: 37px;
   border-radius: 50%;
   background-color: #fc0606;
   display: flex;
@@ -196,43 +202,53 @@ body{
   align-items: center;
   color: white;
   font-size: 30px;
-  margin-top: 11px;
-  padding-top: 2px; }
-
+  margin-top: 12px;
+  padding-top: 2px;
+  padding-right: 1px;
+  margin-right: 22px;
+}
 .menudiv .style1 {
   background-color: #AC0202;
   margin-bottom: 1px;
   width: 100px;
-  height: 54px;
+  height: 63px;
   float: right; }
 
 .menudiv .style {
-  width: 137px;
   background-color: #AC0202;
   margin-bottom: 1px;
-  height: 54px;
+  height: 55px;
   font-family: AvenirNext;
-  border-bottom-right-radius: 9px;
-  border-top-right-radius: 9px;
-  margin-left: -88px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
   cursor: pointer;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
-  margin-top: 1px; }
-
+  margin-top: 1px;
+  width: 195px;
+  padding-right: 1px;
+  padding-bottom: 3px;
+  margin-left: -15px;
+}
 .menudiv span {
   letter-spacing: 3px;
-  color: #fc0606; }
+  color: #fc0606;
+  padding-left: 0px;
+  margin-top: 1rem !important;
+}
 
 .menudiv p {
+  width: 149px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   font-family: AvenirNext;
   color: black;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-right: 21px;
+}
 /*==== article-area start =====*/
 .article-area {
   background-color: #54585a;
