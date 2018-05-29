@@ -73,12 +73,12 @@ p{
     display:flex;
     justify-content: space-between;
 }
-.left-list{
+.left-list-top{
     padding-left: 41px;
     padding-top: 40px;
 }
 
-.left-list a{
+.left-list-top a{
     opacity: 0.9;
     font-size: 16px;
     font-weight: 600;
@@ -90,7 +90,7 @@ p{
     color: #ffffff;
     font-family: AvenirNext;
 }
-.left-list a:hover{
+.left-list-top a:hover{
     color: #ffffff;
     cursor: pointer;
     text-decoration:none;

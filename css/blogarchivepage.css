@@ -56,12 +56,12 @@ body{
   display:flex;
   justify-content: space-between;
 }
-.left-list{
+.left-list-top{
   padding-left: 41px;
   padding-top: 40px;
 }
 
-.left-list a{
+.left-list-top a{
   opacity: 0.9;
   font-size: 16px;
   font-weight: 600;
@@ -73,7 +73,7 @@ body{
   color: #ffffff;
   font-family: AvenirNext;
 }
-.left-list a:hover{
+.left-list-top a:hover{
   color: #ffffff;
   cursor: pointer;
   text-decoration:none;
@@ -290,7 +290,7 @@ body{
 .the-three-dives .col1 p a:hover,
 .the-three-dives .col1 p a:visited,
 .the-three-dives .col1 p a:focus,
-.the-three-dives .col1 p a:active,
+.the-three-dives .col1 p a:active
 {
     font-family: AvenirNext;
     font-size: 28px;
@@ -461,8 +461,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    line-height: 0;
-    margin-left: -26 }
+    line-height: 0; }
   
   .the-three-dives .two-div-2 {
     mix-blend-mode: screen;

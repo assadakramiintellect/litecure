@@ -161,10 +161,11 @@
     opacity: 0.6;
     border-radius: 6px;
     background-color: #333333;
-
+    padding-top: 0;
     padding-bottom: 22px;
     margin-top: 15px;
     margin-right: 13px;
+    position: relative;
 }
 .menu .icons-one{
   padding-top: 15px;
@@ -172,8 +173,7 @@
 
 .menu .caption-icons-1 {
     position: absolute;
-    /* bottom: 0; */
-    right: 27px;
+    right: 0;
     border-radius: 6px;
     background-color: #A6192E;
     line-height: 28px;
