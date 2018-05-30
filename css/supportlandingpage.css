@@ -19,6 +19,68 @@ p{
     flex-direction: row;
     justify-content: space-around; }
 
+
+/*menu start*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+.menumain .caption-icons-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 6px;
+    background-color: #A6192E;
+    line-height: 28px;
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
+}
+.menumain .caption-icons-1 .search-nav input {
+    width: 99px;
+    text-align: center;
+    background-color: #A6192E;
+    border: none;
+    border-bottom: 1px solid #d33f55;
+    color: #D33F55;
+    margin-right: 10px;
+    height: 21px;
+}
+.menumain .caption-icons-1 .search-nav input::placeholder {
+    color: #d33f55;
+    opacity: 1;
+    font-size: 10px; }
+.menumain .caption-icons-1 img {
+    width: 21px;
+    height: 22px;
+    margin: 7px auto;
+}
+.menumain .caption-icons-1 .search-nav p {
+    font-size: 10px;
+    width: 103px;
+    text-align: right;
+    background-color: #A6192E;
+    border: none;
+    color: #D33F55;
+    height: 21px;
+    padding-right: 18px;
+    margin-right: 10px;
+}
+.menumain .caption-icons-1 .search-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.menumain{
+    position: relative;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+/*Menu end*/
+
 .main-container{
     width:1287px;
     margin:auto;
@@ -100,10 +162,10 @@ p{
     opacity: 0.6;
     border-radius: 6px;
     background-color: #333333;
-    padding-top: 8px;
-    padding-bottom: 22px;
-    margin-top: 19px;
-    margin-right: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 16px;
+    margin-right: -3px;
 }
 .icons{
     padding-top: 5px;

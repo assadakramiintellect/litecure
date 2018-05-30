@@ -79,7 +79,7 @@ $(document).ready(function(){
     $(".icons-one ").on("click", function(){
         $(".caption-icons-1").show();
         $(".menu .text-center").css('opacity','1');
-        $(".icons-one").hide();
+        // $(".icons-one").hide();
     });
     // $(".caption-icons-1").on("click", function(){
     //
@@ -94,7 +94,6 @@ $(document).ready(function(){
     });
     $(".left-list-top a").on("click", function () {
         $("#hidden").show();
-        console.log("1");
         $("#showen").hide();
         $("."+$(this).text()).show();
     });
