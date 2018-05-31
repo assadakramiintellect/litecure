@@ -5,7 +5,12 @@
 /************************************************* header section start  ***********************************************/
 #hero {
     background-blend-mode: normal, multiply;
-    background:linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b),url(../assets/lady-with-her-dog.jpg)no-repeat;
+    background: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(222deg, rgba(255, 255, 255, 0.5), rgba(84, 88, 90, 0.5)),url("../assets/dog-ok-hug.jpg") no-repeat;
+    background-size: cover;
+    height: 810px;}
+#hero1 {
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #9f041b, #9f041b), url("../assets/SmilingwithDogSmall.jpg");
     background-size: cover;
     height: 810px;}
 
@@ -295,17 +300,172 @@
 .main-area{
     position: relative;
 }
+.right-side-area-nav{
+    padding-top: 80px;
+    padding-right: 44px;
+}
+.right-side-area-nav p{
+    opacity: 0.6;
+    font-family: AvenirNext;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 33px;
+    text-align: left;
+    color: #ffffff;
+    padding-bottom: 41px;
+    padding-left: 30px;
+}
+.right-side-area-nav p:last-child{
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.57;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #9d9d9d;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+/*****************************************next section start three red div  ***********************************/
+.empty-div{
+    background-color: #fc0606;
+    height: 58px;
+}
+
+/****************************************** two div section ********************************************/
+
+.the-three-dives {
+    background: #FC0606;
+    position: relative;
+}
+.main-area {
+    max-width: 1319px;
+    margin: 0 auto;
+}
+.the-three-dives .two-div1 {
+    background-color: #FC0606;
+}
+.two-div1 {
+    padding: 67px 78px 153px 64px;
+}
+.the-three-dives .col4 {
+    background-blend-mode: normal, multiply;
+    background:linear-gradient(rgba(103, 101, 101, 0.6), rgba(47, 47, 47, 0.6)), linear-gradient(to bottom, #54585a, #54585a),   url("../assets/handshakingdog.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 391px;
+}
+.the-three-dives .two-div2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 35px;
+}
+.the-three-dives .two-div1 p a {
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #f26b7f;
+    text-decoration: none!important;
+}
+.the-three-dives .two-div1 a:hover{
+    text-decoration:none;
+}
+.white-color {
+    color: #ffffff !important;
+}
+.the-three-dives .two-div-2 a {
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #9d9d9d;
+}
+.the-three-dives .two-div-2 a:hover{
+    text-decoration: none;
+}
+
+.three-dives {
+    background: #54585a;
+    position: relative;
+}
+.three-dives .two-div1 {
+    background-color: #54585a;
+}
+.three-dives .col4 {
+    background-blend-mode: normal, multiply;
+    background:linear-gradient(rgba(103, 101, 101, 0.6), rgba(47, 47, 47, 0.6)), linear-gradient(to bottom, #54585a, #54585a),   url("../assets/treatmentofdog.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 391px;
+}
+.three-dives .two-div2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 35px;
+}
+.three-dives .two-div1 p a {
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #f26b7f;
+    text-decoration: none!important;
+}
+.three-dives .two-div1 a:hover{
+    text-decoration:none;
+}
+
+.three-dives .two-div-2 a {
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #9d9d9d;
+}
+.three-dives .two-div-2 a:hover{
+    text-decoration: none;
+}
+
+/******************************* two section end ******************/
+/* ctx-section */
 .ctx-images1{
     position: absolute;
     z-index: 54;
-    width: 775px;
-    height: 480px;
-    top: 690px;
-    right: 0px;
+    width: 600px;
+    height: 382px;
+    top: 313px;
+    right: 25px;
     margin: 0 auto;
 }
 
-/* ctx-section */
 .ctx-section{
     z-index: 9;
     background:  #f7f7f7;
@@ -336,17 +496,12 @@
 
 
 .ctx-section  .feaured-product-pic .ctx-head p {
-    height: 38px!important;
     font-family: AvenirNext;
-    font-size: 28px;
+    font-size: 27px;
     font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
     line-height: normal;
-    letter-spacing: normal;
     text-align: left;
     color: #fc0606;
-    margin-top: 40px;
     padding-top: 25px;
 }
 .ctx-image1{
@@ -362,7 +517,7 @@
 
 .ctx-section  .feaured-product-pic .ctx-text{
     width: 100%;
-    margin-top: 110px;
+    margin-top: 86px;
 }
 .ctx-section  .feaured-product-pic .ctx-text p{
     opacity: 0.69;
@@ -376,13 +531,10 @@
     letter-spacing: -1px;
     text-align: left;
     color: #9d9d9d;
-
 }
-
-.ctx-section  .feaured-product-pic .ctx-text .ctx-itself{
+.ctx-section  .feaured-product-pic .ctx-text p > span{
     color: #fc0606;
 }
-
 .ctx-section .carousel-indicators {
     position: absolute;
     bottom: 0px!important;
@@ -444,20 +596,6 @@
 
 }
 
-.ctx-section .learn-more-p  {
-    color: #54585a !important;
-    padding-right: 4.5%;
-    line-height: 38px;
-    font-family: AvenirNext !important;
-    font-weight: 300 !important;
-    font-size: 12px !important;
-    width: 170px!important;
-    display: flex!important;
-    padding-top: 36px!important;
-    align-items: flex-end!important;
-    justify-content: flex-end!important;
-}
-
 .ctx-section .learn-more i{
 
     font-size: 16px;
@@ -477,6 +615,498 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 1575px;
 }
 /* ctx-section end*/
+/**************** second  slider setting ****************/
+.col1 {
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/pub-dog.jpg") no-repeat;
+    background-size: cover;
+    height: 435px;
+    background-position: center;
+}
+.col2 {
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(rgba(159, 168, 172, 0.6), rgba(159, 168, 172, 0.6)),url("../assets/treatmentofdog.jpg") no-repeat;
+    background-size: cover;
+    height: 435px;
+    background-position: center;
+}
+.col3 {
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/Dogs-Watch-TV.jpg") no-repeat;
+    background-size: cover;
+    height: 435px;
+    background-position: center;
+}
+.col4 {
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(rgba(159, 168, 172, 0.6), rgba(159, 168, 172, 0.6)),url("../assets/doglistiningmusic.jpg") no-repeat;
+    background-size: cover;
+    height: 435px;
+    background-position: center;
+}
+.col5 {
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(rgba(159, 168, 172, 0.6), rgba(159, 168, 172, 0.6)),url("../assets/doglistiningmusic.jpg") no-repeat;
+    background-size: cover;
+    height: 435px;
+    background-position: center;
+}
+.second-slider{
+    height: 100%;
+    padding-left: 0!important;
+    width: 1188px;
+    margin: 0 auto;
+}
+.dog-slider p{
+    font-weight: 600;
+    padding-top: 39px;
+    padding-left: 8px;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+}
+.redslider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dog-slider {
+    font-family: AvenirNext;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.28;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #fc0606;
+}
+.col2 .dog-slider{
+    color: #c7c9c7;;
+}
+.col5 .dog-slider{
+    color: #c7c9c7;;
+}
+.four h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    transform: rotate(-360deg);
+    mix-blend-mode: screen;
+    font-family: AvenirNext;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 112px;
+}
+.slider2-sm-text {
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-top: 74px;
+    padding-right: 72px;
+}
+.slider2-sm-text p{
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+}
+#myCarousel111{
+    height: 100%;
+}
+#myCarousel111 .slidericon{
+    padding-top: 44px;
+}
+.extra-style-cls{
+    margin: 0!important;
+    width: 100%!important;
+    left: 31px!important;
+    bottom: -10px!important;
+}
+.learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 97px;
+}
+.learn-more-p {
+    color: #ffffff !important;
+    padding-right: 12px;
+    line-height: 38px;
+    font-family: AvenirNext !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    width: 170px;
+    display: flex;
+    padding-top: 36px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.left-side-info .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+}
+.right-side-link{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 19px;
+}
+.learn-more-link{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 19px;
+    justify-content: flex-end;
+    padding-right: 47px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+.learn-more-link p{
+    font-size: 12px;
+    color: #54585a;
+    font-weight: 700;
+    padding-top: 12px;
+    padding-right: 20px;
+}
+.learn-more-link > div{
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+.right-side-link div {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-top: 25px;
+}
+.div-indicators{
+    margin: 0!important;
+    width: 100%!important;
+    left: 72px!important;
+    bottom: -90px!important;
+}
+.carousel-indicators .active {
+    width: 12px !important;
+    height: 12px!important;
+    margin-top: 1px!important;
+}
+.carousel-indicators li {
+    width: 12px!important;
+    height: 12px!important;
+    margin-right: 6px!important;
+    border: none!important;
+}
+
+.slider3 {
+    opacity: 0.59;
+    background-blend-mode: multiply, multiply, multiply;
+    background-size: cover;
+    background: linear-gradient(#c7c9c7, #c7c9c7), linear-gradient(to bottom, transparent, #919ba1), linear-gradient(rgba(157, 157, 157, 0.3), rgba(157, 157, 157, 0.3)), url(../assets/dog-paatient.jpg) no-repeat;
+    margin-top: 112px;
+    height: 414px;
+}
+.slider3-lg-text p{
+    font-size: 36px;
+    color: #c7c9c7;
+    padding-top: 37px;
+}
+.slidericon {
+    position: absolute;
+    top: 185px;
+    right: -65px;
+}
+.carousel-indicators li {
+    flex: none;
+    background-color: grey !important;
+}
+.carousel-indicators .active {
+    background-color: red !important;
+}
+/******************************** slider   section end *****************/
+.empty-area{
+    height: 115px;
+    background-color: #54585A;
+}
+.empty-area-white{
+    height: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************** footer start *****************/
+
+/* subsribe start */
+
+.subscribe-container{
+    width: 1349px;
+    margin:0 auto;
+    background-color: #f7f7f7;
+}
+.main{
+    background-color: #f7f7f7;
+}
+.subscribing-area{
+    display: flex;
+    justify-content: flex-end;
+    width: 1349px;
+    background-color: #f7f7f7;
+    margin:0 auto;
+
+}
+.sub{
+    width: 1215px;
+    background-color: rgba(155, 155, 155, 0.06);
+    margin-bottom: 81px;
+    padding-bottom: 85px;
+}
+/* subscribe */
+
+.Subscribe {
+    font-family: AvenirNext;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #5a6775;
+    padding-top: 51px;
+    padding-left: 40px;
+}
+
+.Subscribe1 span{
+    width: 39px;
+    height: 21px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #5a6775;
+    padding-left: 8px;
+}
+.Subscribe1 .float-right{
+    width: 68px;
+    height: 22px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #5a6775;
+}
+.Subscribe1 p{
+    display: block;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+
+.second-subscribe {
+    width: 600px;
+    float: right;
+    padding-right: 146px;
+    padding-top: 4px;
+
+
+}
+.second-subscribe hr{
+    border: solid 1px #d1d1d6;
+    margin-top: 6px;
+}
+
+/* subsribe end */
+/* footer area star */
+
+.footer-container{
+
+    background-color: rgb(239, 238, 238);
+
+}
+.foot-area{
+    width: 1349px;
+    background-color:rgb(239, 238, 238);
+    margin:0 auto;
+}
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: auto;
+    padding-right: 50px;
+    margin:0 auto;
+    padding-bottom: 45px;
+}
+.footer-area .list1{
+    padding: 36px 0px 0 144px;
+}
+.footer-area .list2{
+    padding: 36px 0px 0 24px;
+}
+.footer-area .list3{
+    padding: 36px 0px 0 50px;
+}
+.footer-area .list4{
+    padding: 36px 0px 0 28px;
+}
+.footer-area .list5{
+    padding: 31px 0px 0 21px;
+}
+.redcolor p{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.footer-area .list3 i{
+    padding: 53px 0px 0 10px;
+    width: 20px;
+    height: 16px;
+
+}
+
+.footer {
+    background-color: rgba(155, 155, 155, 0.06);
+    height: 100%; }
+
+.redcolor {
+    color: #fc0606;
+    padding-bottom: 20px
+}
+
+
+.footer-menu {
+    width: 150px;
+    height: 224px;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+}
+.footer-menu p{
+    font-family: AvenirNext;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.footer-paragraph p{
+    width: 222px;
+    font-family: AvenirNext;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+}
+.footer-menu1 .text-bold{
+    font-weight: bold;
+    color: #5A6775;
+}
+
+.footer-menu-last p {
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #8e8e93;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.Copyright-area{
+    margin-top: 50px;
+}
+.Copyright-area .footer-menu-last{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 125px;
+}
+.Copyright-area .footer-menu-last .terms{
+    display: flex;
+
+}
+.Copyright-area .reserved{
+    padding-left: 30px;
+
+}
+.Copyright-area .footer-menu-last .terms p{
+    font-size: 11px;
+    padding: 0 20px;
+}
+.socialicons {
+    font-size: 25px;
+    margin-left: 20px;
+    color: #fc0606;
+    cursor: pointer;
+}
+.socialicon1 {
+    font-size: 25px;
+    color: #fc0606;
+    cursor: pointer;
+}
+/* footer area end */

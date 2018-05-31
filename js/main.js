@@ -21,7 +21,7 @@ $(document).ready(function(){
         $(".icons-1").fadeOut();
     })
     $(".secondnav .outer-row > div:first-child").on("click", function(){
-        $("."+$(this).data("show")).toggle();
+        $("."+$(this).data("show")).fadeToggle();
         $(".secondnav .outer-row > div:first-child").css('text-decoration','none');
         $(".secondnav .outer-row > div:first-child").css('opacity','0.6');
         $(this).css('text-decoration','underline');
@@ -34,39 +34,39 @@ $(document).ready(function(){
         $(".partnership a").removeClass("extra-color");
         switch($(this).data("show")){
             case "fade-1":
-            $(".fade-2").hide();
-            $(".fade-3").hide();
-            $(".fade-two").hide();
-            $(".fade-three").hide();
+            $(".fade-2").fadeOut();
+            $(".fade-3").fadeOut();
+            $(".fade-two").fadeOut();
+            $(".fade-three").fadeOut();
             break;
             case "fade-2":
-            $(".fade-1").hide();
-            $(".fade-3").hide();
-            $(".fade-one").hide();
-            $(".fade-three").hide();
+            $(".fade-1").fadeOut();
+            $(".fade-3").fadeOut();
+            $(".fade-one").fadeOut();
+            $(".fade-three").fadeOut();
             break;
             case "fade-3":
-            $(".fade-2").hide();
-            $(".fade-1").hide();
-            $(".fade-one").hide();
-            $(".fade-two").hide();
+            $(".fade-2").fadeOut();
+            $(".fade-1").fadeOut();
+            $(".fade-one").fadeOut();
+            $(".fade-two").fadeOut();
             break;
         }
     })
     $(".evidence a:first-child").on("click", function(){
-        $(".fade-one").toggle();
+        $(".fade-one").fadeToggle();
         $(this).toggleClass("extra-style");
         $(".evidence a").toggleClass("extra-color");
         $(this).toggleClass("extra-color");
     });
     $(".education a:first-child").on("click", function(){
-        $(".fade-two").toggle();
+        $(".fade-two").fadeToggle();
         $(this).toggleClass("extra-style");
         $(".education a").toggleClass("extra-color");
         $(this).removeClass("extra-color");
     });
     $(".partnership a:first-child").on("click", function(){
-        $(".fade-three").toggle();
+        $(".fade-three").fadeToggle();
         $(this).toggleClass("extra-style");
         $(".partnership a").toggleClass("extra-color");
         $(this).removeClass("extra-color");
