@@ -662,10 +662,10 @@ padding: 20px 0px 50px 0px;
   color: #939393;
 }
 .responses-container .responses-area .user-container ul li .input{
-	border:none;
-	background-color: transparent;
-	outline: none;
-	width: 114px;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  width: 114px;
   height: 20px;
   font-family: Roboto;
   font-size: 14px;
@@ -717,7 +717,7 @@ padding: 20px 0px 50px 0px;
 
   /* live courses */
   .live-education {
-     height: 320px;
+    height: 320px;
     background-color: #54585a;
     display: flex;
     flex-direction: row;

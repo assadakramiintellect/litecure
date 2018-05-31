@@ -1,0 +1,482 @@
+.body{
+    font-family: AvenirNext!important;
+    background-color: #f7f7f7;
+}
+/************************************************* header section start  ***********************************************/
+#hero {
+    background-blend-mode: normal, multiply;
+    background:linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b),url(../assets/lady-with-her-dog.jpg)no-repeat;
+    background-size: cover;
+    height: 810px;}
+
+.hero-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+
+/*menu start*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+.menumain .caption-icons-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 6px;
+    background-color: #A6192E;
+    line-height: 28px;
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
+}
+.menumain .caption-icons-1 .search-nav input {
+    width: 99px;
+    text-align: center;
+    background-color: #A6192E;
+    border: none;
+    border-bottom: 1px solid #d33f55;
+    color: #D33F55;
+    margin-right: 10px;
+    height: 21px;
+}
+.menumain .caption-icons-1 .search-nav input::placeholder {
+    color: #d33f55;
+    opacity: 1;
+    font-size: 10px; }
+.menumain .caption-icons-1 img {
+    width: 21px;
+    height: 22px;
+    margin: 7px auto;
+}
+.menumain .caption-icons-1 .search-nav p {
+    font-size: 10px;
+    width: 103px;
+    text-align: right;
+    background-color: #A6192E;
+    border: none;
+    color: #D33F55;
+    height: 21px;
+    padding-right: 18px;
+    margin-right: 10px;
+}
+.menumain .caption-icons-1 .search-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.menumain{
+    position: relative;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
+/*Menu end*/
+
+.main-container{
+    width:1287px;
+    margin:auto;
+}
+@font-face {
+    font-family: AvenirNext;
+    src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
+
+.container-1{
+    display:flex;
+    justify-content: space-between;
+    padding-top:45px;
+}
+.container-1:nth-child(1){
+    padding-left: 39px;
+}
+.headerlogo img{
+    width: 135px;
+    height: 56px;
+
+}
+.logo {
+    opacity: 0.6;
+    font-family: AvenirNext;
+    font-size: 43px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 41px;
+    color: #ffffff;
+    padding-top: 8px;
+    margin-right: -23px;
+}
+.welcome-logo{
+    height: 72px;
+    opacity: 0.6;
+    font-size: 41px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 43px;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 8px;
+    font-family: AvenirNext;
+    padding-left: 45px;
+}
+/*   wellcome  & logo */
+.container-2{
+    display:flex;
+    justify-content: space-between;
+}
+.left-list-top{
+    padding-left: 41px;
+    padding-top: 40px;
+}
+
+.left-list-top a{
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    font-family: AvenirNext;
+}
+.left-list-top a:hover{
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration:none;
+}
+.text-center{
+    width: 61.4px;
+    opacity: 0.6;
+    border-radius: 6px;
+    background-color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 16px;
+    margin-right: -3px;
+}
+.icons{
+    padding-top: 5px;
+}
+
+.magnifier a img{
+    width: 21px;
+    height: 22px;
+    margin: 7px auto;
+}
+.person a img{
+    width: 21px;
+    height: 22px;
+    margin: 6px auto 6px 1px;
+}
+.chaticon a img{
+    width: 33px;
+    height: 25px;
+    margin: 17px auto 7px auto;
+}
+.telephone a img{
+    width: 23px;
+    height: 22px;
+    margin: 7px auto;
+}
+.globe a img{
+    width: 27px;
+    height: 24px;
+    margin: 7px auto 7px 2px;
+}
+.icons > div a img:nth-child(2){
+    width: 21px;
+    height: 22px;
+}
+.container-computer{
+    position: relative;
+    margin-top: 94px;
+}
+.computer-area{
+    width: 254px;
+    border-bottom: 1px solid #fff;
+    position:relative;
+    left:-30px;
+
+
+}
+.computer-area img{
+    padding-left: 42px;
+    width: 220px;
+    height: 90px;
+
+}
+/* container 3 */
+.container-3{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 49px;
+
+}
+.container-3 .secondnav1{
+    padding-left:42px;
+}
+.container-3 .secondnav1 a{
+    opacity: 0.9;
+    font-size: 16px;
+    font-family:  AvenirNext;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #9d9d9d;
+}
+.container-3 .secondnav1 a:hover{
+    text-decoration: none;
+    color:#ffffff;
+}
+.secondnav1 .active .white-color{
+    color:#ffffff;
+}
+.play-logo {
+    display: flex;
+    flex-direction: row-reverse;
+    opacity: 0.9;
+    mix-blend-mode: color-dodge;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    color: #ffff;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 6px 18px 23px;
+}
+.play-logo p{
+    margin-right: 12px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+}
+.arrow-img {
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+.arrow-img img {
+    width: 41px;
+    height: 63px;
+    padding-left: 6px;
+}
+.secondnav2{
+    font-family: AvenirNext;
+    color: #9d9d9d;
+    padding-top: 7px;
+}
+.secondnav2 p{
+    padding-right: 32px;
+}
+.bgcolor {
+    background-color: #fc0606;
+    height: 59px; }
+.main-area{
+    position: relative;
+}
+.ctx-images1{
+    position: absolute;
+    z-index: 54;
+    width: 775px;
+    height: 480px;
+    top: 690px;
+    right: 0px;
+    margin: 0 auto;
+}
+
+/* ctx-section */
+.ctx-section{
+    z-index: 9;
+    background:  #f7f7f7;
+}
+.ctx-section .ctx-container{
+    width: 1200px;
+    height: auto;
+    margin:0 auto;
+}
+.ctx-section .text1{
+    padding-right: 34px;
+}
+.ctx-section  .feaured-product-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+
+}
+.ctx-section  .feaured-product-pic .ctx-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+
+
+}
+
+
+.ctx-section  .feaured-product-pic .ctx-head p {
+    height: 38px!important;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fc0606;
+    margin-top: 40px;
+    padding-top: 25px;
+}
+.ctx-image1{
+    position: absolute;
+    z-index: 54;
+    width: 823px;
+    height: 617px;
+    top: 510px;
+    right: 20px;
+    margin: 0 auto;
+}
+
+
+.ctx-section  .feaured-product-pic .ctx-text{
+    width: 100%;
+    margin-top: 110px;
+}
+.ctx-section  .feaured-product-pic .ctx-text p{
+    opacity: 0.69;
+    mix-blend-mode: multiply;
+    font-family: AvenirNext;
+    font-size: 60px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.13;
+    letter-spacing: -1px;
+    text-align: left;
+    color: #9d9d9d;
+
+}
+
+.ctx-section  .feaured-product-pic .ctx-text .ctx-itself{
+    color: #fc0606;
+}
+
+.ctx-section .carousel-indicators {
+    position: absolute;
+    bottom: 0px!important;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.ctx-section .ctx-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 38px;
+    height: 140px;
+}
+
+.ctx-section .learn-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 64px;
+    padding-bottom: 128px;
+}
+
+.ctx-section .learn-more div {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-left: 3px;
+    padding-top: 2px;
+    margin-top: 25px;
+}
+.ctx-section .learn-more p{
+    width:40px;
+    display: flex;
+    padding-top: 36px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #54585a;
+
+}
+
+.ctx-section .learn-more-p  {
+    color: #54585a !important;
+    padding-right: 4.5%;
+    line-height: 38px;
+    font-family: AvenirNext !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    width: 170px!important;
+    display: flex!important;
+    padding-top: 36px!important;
+    align-items: flex-end!important;
+    justify-content: flex-end!important;
+}
+
+.ctx-section .learn-more i{
+
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+    color: #ffffff;
+    padding-bottom: 2px;
+    padding-left: 2px;
+
+}
+.carousel-inners{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 1575px;
+}
+/* ctx-section end*/
