@@ -130,6 +130,7 @@ body{
 .container-2{
   display:flex;
   justify-content: space-between;
+  padding-bottom: 95px;
 }
 .left-list-top{
   padding-left: 41px;

@@ -68,7 +68,9 @@ body{
     line-height: 30px;
 }
 .menumain{
-    position: relative;
+    position: fixed;
+    right:30px;
+    z-index: 1;
 }
 /*----------------------------------------------------------------------------------------------------------------*/
 /*Menu end*/
@@ -126,6 +128,7 @@ body{
 .container-2{
   display:flex;
   justify-content: space-between;
+    padding-bottom: 95px;
 }
 .left-list-top{
   padding-left: 41px;
