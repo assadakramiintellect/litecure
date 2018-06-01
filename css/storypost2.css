@@ -1035,11 +1035,15 @@ custom-row{
 /* subsribe start */
 
 .subscribe-container{
+    background: #4B4A4C;
+
+}
+.subscribe-area-container{
+    background-color: #ffffff!important;
+}
+.subscribe-container .main{
     width: 1349px;
     margin:0 auto;
-    background-color: #f7f7f7;
-}
-.main{
     background-color: #f7f7f7;
 }
 .subscribing-area{
@@ -1143,13 +1147,11 @@ custom-row{
 /* footer area star */
 
 .footer-container{
-
-    background-color: rgb(239, 238, 238);
+    background-color: #504F51;
 
 }
 .foot-area{
     width: 1349px;
-    background-color: #504F51;
     margin:0 auto;
 }
 .foot-area3{

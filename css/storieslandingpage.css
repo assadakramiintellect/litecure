@@ -459,6 +459,15 @@
 .ctx-images1{
     position: absolute;
     z-index: 54;
+    width: 639px;
+    height: 617px;
+    top: 169px;
+    right: 0px;
+    margin: 0 auto;
+}
+.ctx-images2{
+    position: absolute;
+    z-index: 54;
     width: 600px;
     height: 382px;
     top: 313px;

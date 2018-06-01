@@ -1,0 +1,1399 @@
+/************************************************* header section start  ***********************************************/
+#hero {
+  background-blend-mode: normal, multiply;
+  background: linear-gradient(rgba(166, 25, 46, 0.6), rgba(166, 25, 46, 0.6)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/SmilingwithDogSmall.jpg") no-repeat;
+  background-size: 100%;
+  height:896px;
+   }
+
+.hero-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+  .main-container{
+    width:1329px;
+    margin:auto;
+  }
+  .headerlogo{
+    margin-left:11px;
+  }
+  @font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
+
+  .container-1{
+  
+       display:flex;
+       justify-content: space-between;
+      
+       padding-top:44px;
+  }
+  .container-1:nth-child(1){
+       padding-left:37px;
+  }
+  .headerlogo img{
+    width: 136px;
+    height: 58px;
+
+  }
+  .welcome-logo{
+  height: 72px;
+  opacity: 0.6;
+  font-size: 41px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 43px;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 10px;
+  font-family: AvenirNext;
+  padding-left: 45px;
+  }
+  .logo{
+    padding-left:45px;
+  }
+  /*   wellcome  & logo */
+  
+/* container 3 */
+.container-2{
+       display:flex;
+       justify-content: space-between;
+       padding-top:112px;
+       height: 723px;
+       align-items: flex-end;
+
+}
+.container-2 .time-right{
+  padding-right:40px;
+  padding-bottom:40px;
+}
+.timearea{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.timearea > div{
+    display: flex;
+    flex-direction: column;
+}
+.timearea > div span{
+    color: #fc0606;
+    font-size: 23px;
+    text-align: center;
+}
+.container-2 .time-right p{
+  opacity: 0.97;
+  font-family: AvenirNext;
+  font-size: 72px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  text-align: right;
+  color: #fc0606;
+  padding:20px;
+}
+.container-2 .time-right p span{
+  font-size: 23px;
+}
+.container-2 .time-right .f-time{
+  font-size:100px;
+}
+.container-2 .secondnav1{
+  padding-left:79px;
+}
+.container-2 .secondnav1 p{
+  width: 832px;
+  transform: rotate(-360deg);
+  font-family: AvenirNext;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #fc0606;
+  padding-bottom: 40px;
+}
+
+
+
+/*****************************************next section start three red div  ***********************************/
+.button-red-div{
+background-color: #fc0606;
+height:56px;
+
+
+}
+.button-flex{
+  display:flex;
+  background:#fc0606;
+  margin:0 auto;
+  width:1349px;
+  padding:1px 0px;
+}
+.button-flex>div{
+  background:linear-gradient(to right, rgba(194, 19, 1,1), rgba(194, 19, 1, 1));
+  border-radius:0px 8px 8px 0px;
+  height: 54px;
+    width: 194px;
+}
+.button-flex .icon-text{
+  display:flex;
+  margin:5px 63px;
+}
+.button-flex .icon-text i{
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 23px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding:18px;
+    margin-top:3px;
+}
+.button-flex .icon-text p{
+  font-family: AvenirNext;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #fc0606;
+  margin-top:12px;
+  margin-left:21px;
+  cursor: pointer;
+}
+
+
+/****************** content section width date *******************/
+
+.content-date{}
+.content-date .content-background{
+  background: #54585a;
+}
+.content-date .content-flex{
+  display: flex;
+  margin:auto;
+  width:1287px;
+  padding-bottom:14px;
+}
+.back-to-previous {
+    margin:69px 50px 50px 32px;
+}
+ .back-to-previous p   {
+    display: flex;
+    font-family: AvenirNext;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 0.8px;
+    font-size: 11px;
+}
+.back-to-previous strong{
+  padding-top:2px;
+  padding-left: 2px;
+}
+.back-to-previous i{
+  height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    padding-right: 3px;
+}
+/*************************** list container  *********************************/
+.container-main-wrapper{
+margin-left:60px;
+}
+
+.container-main-wrapper .list-container {
+    display: flex;
+    flex-direction: row;
+    margin-top:52px;
+}
+.container-main-wrapper .list-container .shere{
+  padding-left:5px;
+}
+.container-main-wrapper .list-container .list-area .fa{
+  font-size:18px;
+}
+.container-main-wrapper .list-container a {
+    width: 247px;
+    height: 21px;
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+    text-decoration: none;
+}
+.container-main-wrapper .list-container .list-area ul {
+    list-style: none;}
+
+ .container-main-wrapper  .list-area ul li {
+    display: flex;
+    float: left;
+    padding-left: 20px;
+    width: 66px;
+    height: 21px;
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+}
+
+
+
+.container-main-wrapper .resors-date{
+  display:flex;
+  justify-content: space-between;
+}
+.container-main-wrapper .resors-date>div{
+
+}
+.container-main-wrapper .resors-date .w-container{
+  width:800px;
+}
+.container-main-wrapper .resors-date .txts {
+   margin-top:34px;
+}
+.container-main-wrapper .txts p {
+    height: 48px;
+    font-family: AvenirNext;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom:3px;
+}
+.container-main-wrapper .date-left p{
+  width: 312px;
+  height: 36px;
+  transform: rotate(-360deg);
+  opacity: 0.97;
+  font-family: AvenirNext;
+  font-size: 127px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.28;
+  letter-spacing: -6px;
+  text-align: left;
+  color: #757d82;
+  margin:18px 0px 0px 77px;
+}
+.download-button{
+  width: 271px;
+  opacity: 0.6;
+  font-family: AvenirNext;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.73;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+  border-radius:5px;
+  border:2px solid #ffffff;
+  background:transparent;
+  padding:14px;
+}
+.container-main-wrapper  .footer-div{
+  margin-top:0px;
+}
+.container-main-wrapper  .footer-div p{
+  font-size: 20px;
+  color: #c7c9c7;
+  padding-top:3px;
+   letter-spacing: 1.3px;
+}
+.container-main-wrapper  .footer-div span{
+  font-size: 20px;
+  color: red;
+  padding-top:3px;
+   letter-spacing: 1.3px;
+}
+.container-main-wrapper  .footer-div p:first-child{
+   font-family: AvenirNext;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom:0px;
+   
+}
+.footer-div-relation p{
+  width: 317px;
+  height: 38px;
+  opacity: 0.6;
+  font-family: AvenirNext;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #c7c9c7;
+  margin-top:123px;
+  position: relative;
+    right: 12px;
+}
+
+
+
+/***************************     next section         ********************/
+/* schdeule a demo */
+.schedule1-demo{
+ margin: 0 auto;
+ background-color: #f7f7f7;
+}
+.image-section{
+   width: 1260px;
+   height: 670px;
+   margin: 0 auto;
+    background-blend-mode: normal, multiply, soft-light, multiply;
+   background: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(84, 88, 90, 0.5)),url(../assets/dogtreated.jpg);
+   background-size: 100% auto;
+}
+.schedule-demo-content{
+   margin: 0 auto;
+   background:#54585A;
+   padding-top:70px;
+   padding-bottom:89px;
+}
+
+
+.schedule-demo-content .mid-schdeule-content h2 {
+   transform: rotate(-360deg);
+   opacity: 0.9;
+   mix-blend-mode: screen;
+   font-family: AvenirNext;
+   font-size: 64px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.13;
+   letter-spacing: normal;
+   text-align: center;
+   color: #ffffff;
+}
+.schedule-demo-content .mid-schdeule-content{
+   height: 374px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 260px;
+   padding-left: 33px;
+}
+.schedule-demo-content .mid-schdeule-content h1{
+   opacity: 0.9;
+   font-family: AvenirNext;
+   font-size: 61px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.13;
+   letter-spacing: -1px;
+   text-align: center;
+   color: #fc0606;
+   margin-bottom: 0;
+   margin-top: 14px;
+}
+.schedule-demo-content .mid-schdeule-content p{
+   font-family: AvenirNext;
+   font-size: 14px;
+   font-weight: normal;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: 1.47;
+   letter-spacing: 0.1px;
+   text-align: center;
+   color: #ffffff;
+   width: 611px;
+   padding-top: 21px;
+}
+.schedule-demo-content .learn-more{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-start;
+   margin-top: 125px;
+}
+.schedule-demo-content .learn-more .content-div{
+   display: flex;
+   justify-content: center;
+   padding-right: 78px;
+   
+}
+.schedule-demo-content .learn-more .content-div  .content-div-inside{
+   display: flex;
+   justify-content: space-between;
+   width: 140px;
+   cursor: pointer;
+}
+.schedule-demo-content .learn-more .content-div  .content-div-inside p{
+   margin-bottom: 0px;
+   display: flex;
+   align-items: center;
+   font-family: AvenirNext;
+   font-size: 11px;}
+   .arrow-img {
+width: 118px;
+height: 118px;
+border-radius: 50%;
+border: 4px solid #fff;
+align-self: flex-end;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 60px;
+}
+
+/******************************* slider area ******************/
+/*  slider-area */
+
+.slider-area{
+  height: 516px;
+  margin-top: 34px;
+  margin-bottom: 70px;
+  margin:auto;
+  background:#54585A;
+}
+.slider-area .slider-container{
+  width: 1349px;
+  height: 385px;
+  position: relative;
+  margin:auto;
+
+
+}
+.slider-area .slider-container .item{
+    width: 1349px;
+  height: 420px;
+  mix-blend-mode: multiply;
+  margin:auto;
+}
+.slider-area  .content-vedio{
+    height:420px;
+}
+.slider-area  .content-vedio .txt-wrapper{
+    margin-top:30px;
+    margin-left:29px;
+}
+.slider-area  .content-vedio h5{
+    font-family: AvenirNext;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    text-align: left;
+    color: #ffffff;
+}
+.slider-area  .content-vedio h6{
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #ffffff;
+}
+.slider-area .slider-container .content-vedio{
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+.slider-area  .wrapper-one{
+    background-blend-mode: normal, soft-light, multiply;
+     background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url(../assets/triangles.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    width:468px;
+    height:323px;
+    position:relative;
+    right:82px;
+}
+.slider-area  .wrapper-two{
+  background-blend-mode: normal, soft-light, multiply;
+   background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url(../assets/triangles.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    width:492px;
+    position:relative;
+    right:40px;
+    height:323px;
+}
+
+.slider-area  .wrapper-three{
+  background-blend-mode: normal, soft-light, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url(../assets/triangles.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 5px;
+    width:407px;
+    height:323px;
+    position: relative;
+}
+.slider-area .txt-header-section{
+    background:#54585A;
+}
+.slider-area .slider-course{
+    width: 1213px;
+    height: 80px;
+    display: flex;
+    flex: 1 auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #54585A;
+}
+.slider-area .course-container .course-text {
+    width: 460px;
+    height: 38px;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #C7C9C7;
+}
+.slider-area .course-container .course-text1 {
+    display: flex;
+}
+.slider-area.course-container .course-text1 p {
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px 0px 0px 20px;
+}
+.course-container .course-text1 p {
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px 0px 0px 20px;
+}
+
+.slider-area .course-container .course-text1 div {
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+.slider-area .slider-container .item img{
+  width: 100%;
+  margin-left: 0px;
+  
+}
+ .slider-area .slider-container .carouselinicator {
+  bottom: -11px !important;
+    top: 329px;
+    padding-left: 56px;
+   }
+
+.slider-area .slider-container .carousel-indicators li {
+  max-width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #9d9d9d !important;
+  border:none;
+  bottom: -50px; }
+  .slider-area .slider-container .carousel-control span {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 2px;
+  background: rgba(128, 128, 128, 0.5);
+  color: rgba(18, 16, 16, 0.5);
+  position: relative;
+  left: 0;
+  top: 0; }
+
+.slider-area .slider-container .carousel-indicators .active {
+  background-color: #fc0606 !important;
+ 
+}
+
+ .slider-area .slider-container .slidericon2{
+  position: absolute;
+    display: block;
+    top: 254px;
+    height: 83px;
+    font-size: 102px;
+    color: #c7c9c7;
+     right: 15px;
+    top: 76px;
+     }
+
+  .slider-area .slider-container .slidericon2 .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slider-area .slider-container .heading-text{
+    position: absolute;
+    display: block;
+    top: 271px;
+    left: 29%;
+
+}
+.slider-area .slider-container .heading-text h2{
+  transform: rotate(-360deg);
+  opacity: 0.9;
+  font-family: AvenirNext;
+  font-size: 64px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+/*==== article-area end =====*/
+
+.slider-area .slider-container .indicators {
+  bottom: -70px !important;
+  background-color: #9d9d9d !important;
+  max-width: 12px !important;
+  height: 12px !important;
+  border-radius: 12px; }
+
+
+
+/******************************* slider section end ******************/
+
+
+/************************************* paragraph section  ***************/
+.paragraph-background{
+   background-color: #54585a;
+   padding-top:108px;
+}
+.paragraph-background .para-flex{
+  display:flex;
+  width:1249px;
+  margin:auto;
+
+}
+.paragraph-background .para-flex>div{
+  background-color: #54585a;
+
+}
+.paragraph-background .para-conatiner p{
+    width: 1224px;
+    font-family: AvenirNext;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #c7c9c7;
+    padding: 0px 44px 0px 31px ;
+}
+
+/************************** registration section *********************/
+
+.Subscribe1 .input-c input {
+    font-family: AvenirNext;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #c7c9c7;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.registration-container .register .footer-txt{
+  margin-top:243px;
+  width: 915px;
+  height: 165px;
+  opacity: 0.6;
+  font-family: AvenirNext;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c7c9c7;
+  padding-left:53px;
+}
+.registration-container{
+  background:#54585a;
+}
+.registration-container .register{
+  opacity: 0.39;
+  background-color: #3f4446;
+}
+.Subscribe .register-txt{
+  color:#ffffff;
+}
+.register-subs .txt{
+  width: 68px;
+    height: 22px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: right;
+    color: #ffffff;
+    float: right;
+}
+/********************* user area ********************/
+.user-container{
+  background-color: #54585a;
+ }
+
+.user-container .user-area{
+  width: 1000px;
+  height: 600px;
+ background-color: #54585a;
+  margin: 0 auto;
+}
+.inner-container{
+  padding-left:122px;
+}
+.inner-container h6{
+  font-family: AvenirNext;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fc0606;
+  padding: 50px 0px 10px 40px;
+  margin-top:0px;
+}
+.inner-container ul{
+  list-style: none;
+}
+.inner-container ul li{
+  margin-bottom: 100px;
+
+}
+.inner-container ul li i{
+width: 64.4px;
+  height: 64px;
+  border-radius: 6px;
+  background-color: #686e72;
+  font-size: 21px;
+  padding: 20px;
+  margin-right: 30px;
+  color: #C1C4C2;
+
+}
+
+.inner-container ul li .input{
+  background: transparent;
+  outline: none;
+  color: #fff;
+  border:none;
+
+
+}
+.inner-container ul .texts{
+  display: flex;
+  flex: 1;
+  margin-bottom: 65px;
+}
+.inner-container ul .texts div{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #939393;
+}
+.inner-container ul li .input1{
+   width: 527px;
+  height: 65px;
+  border-radius: 4px;
+  border: solid 1px #d9d9d9;
+  background: transparent;
+  padding-left: 30px;
+}
+.inner-container ul hr{
+  width: 70px;
+    margin-left: 0px;
+    padding-bottom: 37px;
+    margin-top: -37px;
+}
+
+
+/* live courses */
+.live-education {
+    height: 486px;
+    background-color: #54585a;
+    display: flex;
+    flex-direction: row;
+}
+.live-e-footer{
+    height: 322px;
+    background-color: #54585a;
+}
+.live-education .container-4{
+    width: 1349px;
+    margin: 0 auto;
+    padding: 50px 50px 0px 50px;
+
+}
+.live-education .container4 .header{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.live-education .rowone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.live-education .rowone .row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; }
+
+.live-education .rowone .row-one p {
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fc0606; }
+
+.live-education .rowone .row-one p span {
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff; }
+
+.live-education .rowone .row-two {
+    color: #8D9498;
+    font-family: AvenirNext;
+    font-size: 27px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+
+.live-education .margining {
+    margin-top: 8.3% !important; }
+
+.live-education .course-container{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    flex: 1 auto;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.live-education .course-container .course-text{
+    width: 485px;
+    height: 38px;
+    font-family: AvenirNext;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.live-education .course-container .live-footer-txt{
+    color: #ffffff;
+}
+.live-education .course-container .course-text1{
+    display: flex;
+}
+.live-education .course-container .course-text1 p{
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px 0px 0px 20px;
+}
+.live-education .course-container .course-text1 div{
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #fc0606;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    padding-left: 4px;
+    padding-top: 1px;
+}
+
+.rowone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+
+.rowone .row-one {
+    color: white;
+    font-family: AvenirNext;
+    font-size: 27px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; }
+
+.rowone .row-two {
+    color: #8D9498;
+    font-family: AvenirNext;
+    font-size: 27px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+
+
+
+.live-education .text {
+    display: flex;
+    flex: 1 auto;
+    justify-content: space-between;
+    padding: 20px; }
+
+.live-education .text h2 {
+    color: #fff; }
+
+.live-education .grey {
+    background-color: #54585A;
+    height: 280px; }
+
+.image {
+    background-color: #54585A;
+    height: 320px;
+    position: absolute;
+    padding: 0px;
+    margin: 0px 9px;
+    min-width: 18.5%; }
+
+.image:last-child {
+    background-color: #54585A;
+    height: 320px;
+    padding: 0px;
+    margin: 0px 0px;
+    margin-left: 9px !important;
+    min-width: 18.5%; }
+
+.card {
+    background: url('../assets/triangles.jpg') no-repeat;
+    background-size: cover;
+    height: 135px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%; }
+
+.card .icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px; }
+
+.card .icons .fa-heart-o {
+    padding: 19px 0 54px 44px;
+    font-size: 18px;
+    color: #ffffff; }
+
+.card .icons .fa-camera {
+    padding: 0 0 0 36px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.live-education .foot {
+    padding: 152px 13px 30px 13px;
+}
+
+.card-bottom-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+
+.card-bottom-icon .card-icon {
+    margin-top: 25px;
+    color: #f9f9f9;
+    margin-right: 8px;
+    cursor: pointer; }
+
+.live-education .foot h5 {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: AvenirNext;
+    font-size: 16px;
+    padding-top: 3px; }
+
+.live-education .foot p {
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+    font-family: AvenirNext;
+    font-size: 9px;
+    opacity: 0.3;
+    padding-bottom: 5px; }
+
+.live-education .foot ul {
+    margin-left: 0px;
+    padding-left: 0px; }
+
+.live-education .foot ul li {
+    list-style: none;
+    color: #B3BDBC;
+    font-size: 9px;
+    padding-top: 5px; }
+
+.live-education .foot ul li i {
+    list-style: none;
+    color: #B3BDBC;
+    font-size: 12px; }
+
+.live-education .checked {
+    padding: 10px 0px;
+    color: #B3BDBC; }
+
+/*  live courses end */
+
+
+/*****************************  footer   & subscribtion area **********************************/
+/* subsribe start */
+
+.subscribe-container{
+    width: 1349px;
+    margin:0 auto;
+}
+.subscribing-area{
+    display: flex;
+    justify-content: flex-end;
+    width: 1349px;
+    margin:0 auto;
+
+}
+.sub{
+    width: 1215px;
+    height: 400px;
+    background-color: rgba(155, 155, 155, 0.06);
+    margin-top: 220px;
+    margin-bottom: 81px
+}
+/* subscribe */
+
+.Subscribe {
+    font-family: AvenirNext;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #5a6775;
+    padding-top: 51px;
+    padding-left: 40px;
+}
+
+.Subscribe1 span{
+    width: 39px;
+    height: 21px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: 0.2px;
+    text-align: left;
+    color: #5a6775;
+    padding-left: 8px;
+}
+.Subscribe1 .float-right{
+    width: 68px;
+    height: 22px;
+    font-family: AvenirNext;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #5a6775;
+}
+.Subscribe1 p{
+    display: block;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+    padding-bottom: 20px;
+    padding-top: 16px;
+}
+
+.second-subscribe {
+    width: 600px;
+    float: right;
+    padding-right: 146px;
+    padding-top: 4px;
+
+
+}
+.second-subscribe hr{
+    border: solid 1px #d1d1d6;
+    margin-top: 6px;
+}
+
+/* subsribe end */
+/* footer area star */
+
+.footer-container{
+
+    background-color: rgb(239, 238, 238);
+
+}
+.foot-area{
+    width: 1349px;
+    background-color:rgb(239, 238, 238);
+    margin:0 auto;
+}
+.footer-area{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    height: auto;
+    padding-right: 50px;
+    margin:0 auto;
+    padding-bottom: 45px;
+}
+.footer-area .list1{
+    padding: 36px 0px 0 144px;
+}
+.footer-area .list2{
+    padding: 36px 0px 0 24px;
+}
+.footer-area .list3{
+    padding: 36px 0px 0 50px;
+}
+.footer-area .list4{
+    padding: 36px 0px 0 28px;
+}
+.footer-area .list5{
+    padding: 31px 0px 0 21px;
+}
+.redcolor p{
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.footer-area .list3 i{
+    padding: 53px 0px 0 10px;
+    width: 20px;
+    height: 16px;
+
+}
+
+.footer {
+    background-color: rgba(155, 155, 155, 0.06);
+    height: 100%; }
+
+.redcolor {
+    color: #fc0606;
+    padding-bottom: 20px
+}
+
+
+.footer-menu {
+    width: 150px;
+    height: 224px;
+    font-family: AvenirNext;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+}
+.footer-menu p{
+    font-family: AvenirNext;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.footer-paragraph p{
+    width: 222px;
+    font-family: AvenirNext;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5a6775;
+}
+.footer-menu1 .text-bold{
+    font-weight: bold;
+    color: #5A6775;
+}
+
+.footer-menu-last p {
+    font-family: AvenirNext;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #8e8e93;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.Copyright-area{
+    margin-top: 50px;
+}
+.Copyright-area .footer-menu-last{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 125px;
+}
+.Copyright-area .footer-menu-last .terms{
+    display: flex;
+
+}
+.Copyright-area .reserved{
+    padding-left: 30px;
+
+}
+.Copyright-area .footer-menu-last .terms p{
+    font-size: 11px;
+    padding: 0 20px;
+}
+.socialicons {
+    font-size: 25px;
+    margin-left: 20px;
+    color: #fc0606;
+}
+.socialicon1 {
+    font-size: 25px;
+    color: #fc0606;
+}
+/* footer area end */

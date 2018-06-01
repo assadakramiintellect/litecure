@@ -76,18 +76,14 @@ $(document).ready(function(){
         $(".inner-area-menu").toggle();
     });
 
-    $(".icons-one ").on("click", function(){
-        $(".caption-icons-1").show();
-        $(".menu .text-center").css('opacity','1');
-        // $(".icons-one").hide();
+    $(".container-2 .icons-one ").on("click", function(){
+        $(".container-2 .caption-icons-1").fadeIn();
+        $(".container-2 .menu .text-center").css('opacity','1');
     });
-    // $(".caption-icons-1").on("click", function(){
-    //
-    //     $(".menu .text-center").css('opacity','0.6');
-    //     $(".caption-icons-1 ").hide();
-    //     $(".icons-one").show();
-    //
-    // });
+    $(".container-2-one .icons-one ").on("click", function(){
+        $(".container-2-one .caption-icons-1").fadeIn();
+        $(".container-2-one .menu .text-center").css('opacity','1');
+    });
     $(".show-menu").on("click", function () {
         $("#hidden").show();
         $("#showen").hide();
@@ -95,7 +91,8 @@ $(document).ready(function(){
     $(".left-list-top a").on("click", function () {
         $("#hidden").show();
         $("#showen").hide();
-        $("."+$(this).text()).show();
+        $(".give-margin").hide();
+        $("."+$(this).text()).fadeIn();
     });
     $(".headerlogo1 p").on("click", function () {
         $("#hidden").hide();

@@ -513,7 +513,6 @@ custom-row{
 }
 .slider-area .slider-container .heading-text h2{
   transform: rotate(-360deg);
-  opacity: 0.9;
   font-family: AvenirNext;
   font-size: 64px;
   font-weight: normal;
