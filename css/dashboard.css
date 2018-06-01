@@ -906,9 +906,12 @@
   padding-top: 15px;
   padding-right: 22px; }
 
-.slider .myCarousel1 i {
-  font-size: 78px;
-  color: #c7c9c7; }
+.slider .myCarousel1 img {
+    font-size: 78px;
+    padding-top: 145px;
+    color: #c7c9c7;
+    padding-left: 54px;
+}
 
 .learn-more i {
   color: #ffffff; }
@@ -1252,14 +1255,14 @@
   color: #5a6775; }
 
 .slider .slidericon2 {
-  position: absolute;
-  display: block;
-  top: 122px;
-  right: 5px;
-  width: 55px;
-  height: 55px;
-  font-size: 78px;
-  color: #c7c9c7; }
+    position: absolute;
+    display: block;
+    top: 1px;
+    right: 1px;
+    width: 99px;
+    height: 399px;
+    font-size: 78px;
+    color: #c7c9c7;}
 
 
 .white-color {
