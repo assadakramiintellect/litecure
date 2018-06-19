@@ -1,26 +1,97 @@
 body{
   font-family: AvenirNext!important;
   overflow-x: hidden;
-  padding: 0px;
-  margin:0px;
 }
 /************************************************* header section start  ***********************************************/
-#hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/man-and-dog.jpg) no-repeat;
-  background-size: 100%;
-  height: 815px}
+/************************************************* header section start  ***********************************************/
+.hero-img{
+  background-blend-mode: normal,multiply;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(223deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/doctor-w-dog.jpg) no-repeat;
+  background-size: cover;
+  height: 815px;
+
+}
+.logo-header-div .head-txt{
+  opacity: 0.6;
+  font-family: AvenirNext;
+  font-size: 31px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 33px;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 64px;
+  padding-top: 62px;
+}
 
 .hero-row-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+@font-face {
+  font-family: AvenirNext;
+  src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
 
-.main-container{
-  width:1287px;
-  margin:auto;
-}
+
 /*menu start*/
-/*-----------------------------------------------------------------------------------------------------*/
+.custom-container{
+  width:1300px!important;
+  margin: 0 auto;
+}
+.header-area{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top:41px !important;
+}
+.hero-img .logo-container{
+  padding:0px;
+  margin:0px;
+
+}
+.hero-img .logo-one{
+  padding-left: 29px;
+  padding-top: 2px;
+}
+.hero-img .logo-one ul{
+  list-style-type: none;
+  padding-left:4px;
+  padding-top:40px;
+  padding-bottom:95px;
+}
+.hero-img .logo-one li a{
+  text-decoration: none;
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.15;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #ffffff;
+  font-family: AvenirNext;
+}
+.hero-img .text-container{
+  padding:0px;
+}
+.hero-img .text-container h4{
+  opacity: 0.6;
+  font-family: AvenirNext;
+  font-size: 42px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 42px;
+  color: #ffffff;
+  text-align:right;
+  position:relative;
+  left:18px;
+  top:3px;
+}
+
 
 .menumain .caption-icons-1 {
   position: absolute;
@@ -76,75 +147,10 @@ body{
 }
 .menumain{
   position: fixed;
-  right:40px;
+  right: 30px;
   z-index: 1;
 }
-/*----------------------------------------------------------------------------------------------------------------*/
-/*Menu end*/
-@font-face {
-  font-family: AvenirNext;
-  src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
 
-.container-1{
-  display:flex;
-  justify-content: space-between;
-  padding-top:45px;
-}
-.container-1:nth-child(1){
-  padding-left: 39px;
-}
-.headerlogo img{
-  width: 135px;
-  height: 56px;
-
-}
-.welcome-logo{
-  height: 72px;
-  opacity: 0.6;
-  font-size: 41px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.8;
-  letter-spacing: 43px;
-  text-align: left;
-  color: #ffffff;
-  margin-top: 8px;
-  font-family: AvenirNext;
-  padding-left: 45px;
-}
-/*   wellcome  & logo */
-.container-2{
-  display:flex;
-  justify-content: space-between;
-  padding-bottom: 95px;
-}
-.left-list-top{
-  padding-left: 41px;
-  padding-top: 40px;
-}
-
-.left-list-top a{
-  opacity: 0.9;
-  font-size: 16px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.15;
-  letter-spacing: 0.8px;
-  text-align: left;
-  color: #ffffff;
-  font-family: AvenirNext;
-}
-.left-list-top a:hover{
-  color: #ffffff;
-  cursor: pointer;
-  text-decoration:none;
-}
-
-.icons{
-  padding-top: 5px;
-}
 .text-center {
   width: 61.4px;
   opacity: 0.6;
@@ -155,68 +161,62 @@ body{
   margin-top: 16px;
   margin-right: -3px;
 }
-
-.magnifier a img{
+.magnifier a img {
   width: 21px;
   height: 22px;
   margin: 7px auto;
 }
-.person a img{
+.person a img {
   width: 21px;
   height: 22px;
   margin: 6px auto 6px 1px;
 }
-.chaticon a img{
+.chaticon a img {
   width: 33px;
   height: 25px;
   margin: 17px auto 7px auto;
 }
-.telephone a img{
+.telephone a img {
   width: 23px;
   height: 22px;
   margin: 7px auto;
 }
-.globe a img{
+.globe a img {
   width: 27px;
   height: 24px;
   margin: 7px auto 7px 2px;
 }
-.icons > div a img:nth-child(2){
-  width: 21px;
-  height: 22px;
+
+/****************************** computer div ****************************/
+.hero-img .computer-div{
+  padding-right: 0px;
+  padding-left: 0px;
+  width: 1300px;
+  margin-top: 41px;
 }
-.container-computer{
-  position: relative;
-  margin-top: 94px;
-}
-.computer-area{
+
+.hero-img .computer-img{
   width: 254px;
   border-bottom: 1px solid #fff;
-  position:relative;
-  left:-30px;
-
-
+  position: relative;
+  left: -30px;
+  margin-top:57px;
+  top:-3px;
 }
-.computer-area img{
-  padding-left: 42px;
-  width: 220px;
+.hero-img .computer-img img{
+  padding-left: 49px;
+  width: 224px;
   height: 90px;
-
 }
-/* container 3 */
-.container-3{
-  display:flex;
-  justify-content: space-between;
-  padding-top: 49px;
-
+.hero-img .computer-div ul{
+  list-style-type: none;
+  padding-left:28px;
 }
-.container-3 .secondnav1{
-  padding-left:42px;
-}
-.container-3 .secondnav1 a{
+.hero-img .computer-div li a{
+  text-decoration: none;
   opacity: 0.9;
   font-size: 16px;
-  font-family:  AvenirNext;
+  font-family: AvenirNext;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -225,11 +225,15 @@ body{
   text-align: left;
   color: #9d9d9d;
 }
-.container-3 .secondnav1 a:hover{
-  text-decoration: none;
+.hero-img  .list-home{
+  padding-left: 35px;
+  padding-top: 6px;
+}
+
+.hero-img .computer-div li a:hover{
   color:#ffffff;
 }
-.secondnav1 .active .white-color{
+.hero-img .computer-div .color{
   color:#ffffff;
 }
 .play-logo {
@@ -247,23 +251,13 @@ body{
   color: #fc0606;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0 6px 18px 23px;
+  padding: 0 10px 18px 23px;
 }
 .play-logo p{
-  margin-right: 55px;
-  margin-bottom: 26px;
-  width: 383px;
-  height: 36px;
-  opacity: 0.6;
-  font-family: AvenirNext;
-  font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1;
-  letter-spacing: 33px;
-  text-align: left;
-  color: #ffffff;
+  margin-right: 12px;
+  font-size: 16px;
+  margin-bottom: 2px;
+  letter-spacing: 0.5px;
 }
 .arrow-img {
   width: 118px;
@@ -281,28 +275,39 @@ body{
   height: 63px;
   padding-left: 6px;
 }
-.secondnav2{
-  font-family: AvenirNext;
-  color: #9d9d9d;
-  padding-top: 7px;
-}
-.secondnav2 p{
-  padding-right: 94px;
+.logo-header-div {
+  padding-top:40px;
 }
 
-.logo {
-    opacity: 0.6;
-    font-family: AvenirNext;
-    font-size: 43px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 0.8;
-    letter-spacing: 41px;
-    color: #ffffff;
-    padding-top: 8px;
-    margin-right: -7px;
+.logo-header-div .txt{
+  font-family: AvenirNext;
+  color: #9d9d9d;
+  padding-top: 36px;
+  text-align: right;
+  padding-right: 87px;
 }
+
+
+/*****************media queries for header ********************************/
+@media only screen and (max-width: 640px) {
+  .hero-img{
+    width:1314px;
+  }
+  .computer-div {
+    display:none;
+  }
+  .logo-header-div{
+    display: none;
+  }
+  .h-list{
+    display:none;
+  }
+  .text-container{
+    display:block;
+  }
+}
+
+
 
 
 /*****************************************next section start three red div  ***********************************/

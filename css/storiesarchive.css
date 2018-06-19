@@ -3,303 +3,301 @@
     background-color: #f7f7f7;
     overflow-x: hidden;
 }
-/* header section start  */
+/************************************************* header section start  ***********************************************/
 
-#hero1 {
-    background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #9f041b, #9f041b), url("../assets/SmilingwithDogSmall.jpg");
-    background-size: cover;
-    height: 810px;}
-
+/************************************************* header section start  ***********************************************/
 .hero-img{
-  background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(222deg, rgba(255, 255, 255, 0.5), rgba(84, 88, 90, 0.5)),url("../assets/dog-ok-hug.jpg") no-repeat;
+    background-blend-mode: normal, multiply;
+    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b),url(../assets/lady-with-her-dog.jpg)no-repeat;
     background-size: cover;
     height: 810px;}
+
 .hero-row-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
 @font-face {
-  font-family: AvenirNext;
-  src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
+    font-family: AvenirNext;
+    src: url("../fonts/AvenirNextLTPro-Regular.otf"); }
 
 
 /*menu start*/
 .custom-container{
-  width:1300px!important;
-  margin: 0 auto;
+    width:1300px!important;
+    margin: 0 auto;
 }
 .header-area{
-  width: 1349px !important;
-  position: relative;
-  margin: 41px auto 0px auto !important;
+    position: relative;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top:41px !important;
 }
 .hero-img .logo-container{
-  padding:0px;
-  margin:0px;
+    padding:0px;
+    margin:0px;
 
 }
 .hero-img .logo-one{
-  padding-left:34px;
-}
-.logo-one img{
-  margin-top: 4px;
-    margin-left: 6px;
+    padding-left:29px;
+    padding-top: 2px;
 }
 .hero-img .logo-one ul{
-  list-style-type: none;
-  padding-left:8px;
-  padding-top:40px;
-  padding-bottom:95px;
+    list-style-type: none;
+    padding-left: 4px;
+    padding-top: 40px;
+    padding-bottom: 95px;
 }
 .hero-img .logo-one li a{
-  text-decoration: none;
-  opacity: 0.9;
-  font-size: 16px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.15;
-  letter-spacing: 0.8px;
-  text-align: left;
-  color: #ffffff;
-  font-family: AvenirNext;
+    text-decoration: none;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    font-family: AvenirNext;
 }
 .hero-img .text-container{
-  padding:0px;
+    padding:0px;
 }
 .hero-img .text-container h4{
-  opacity: 0.6;
-  font-family: AvenirNext;
-  font-size: 43px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 0.8;
-  letter-spacing: 41px;
-  color: #ffffff;
-  text-align:right;
-  margin-right: -22px;
-  padding-top: 2px;
+    opacity: 0.6;
+    font-family: AvenirNext;
+    font-size: 43px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.8;
+    letter-spacing: 33px;
+    color: #ffffff;
+    text-align:right;
 }
 
 
 .menumain .caption-icons-1 {
-  position: absolute;
-  right: 0;
-  top: 0;
-  border-radius: 6px;
-  background-color: #A6192E;
-  line-height: 28px;
-  width: 180px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 224px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 6px;
+    background-color: #A6192E;
+    line-height: 28px;
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 224px;
 }
 .menumain .caption-icons-1 .search-nav input {
-  width: 99px;
-  text-align: center;
-  background-color: #A6192E;
-  border: none;
-  border-bottom: 1px solid #d33f55;
-  color: #D33F55;
-  margin-right: 10px;
-  height: 21px;
+    width: 99px;
+    text-align: center;
+    background-color: #A6192E;
+    border: none;
+    border-bottom: 1px solid #d33f55;
+    color: #D33F55;
+    margin-right: 10px;
+    height: 21px;
 }
 .menumain .caption-icons-1 .search-nav input::placeholder {
-  color: #d33f55;
-  opacity: 1;
-  font-size: 10px; }
+    color: #d33f55;
+    opacity: 1;
+    font-size: 10px; }
 .menumain .caption-icons-1 img {
-  width: 21px;
-  height: 22px;
-  margin: 7px auto;
+    width: 21px;
+    height: 22px;
+    margin: 7px auto;
 }
 .menumain .caption-icons-1 .search-nav p {
-  font-size: 10px;
-  width: 103px;
-  text-align: right;
-  background-color: #A6192E;
-  border: none;
-  color: #D33F55;
-  height: 21px;
-  padding-right: 18px;
-  margin-right: 10px;
+    font-size: 10px;
+    width: 103px;
+    text-align: right;
+    background-color: #A6192E;
+    border: none;
+    color: #D33F55;
+    height: 21px;
+    padding-right: 18px;
+    margin-right: 10px;
 }
 .menumain .caption-icons-1 .search-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
 }
 .menumain{
-  position: fixed;
-  right: 30px;
-  z-index: 1;
+    position: fixed;
+    right: 30px;
+    z-index: 1;
 }
 
 .text-center {
-  width: 61.4px;
-  opacity: 0.6;
-  border-radius: 6px;
-  background-color: #333333;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  margin-top: 16px;
-  margin-right: -3px;
-  z-index: 60;
+    width: 61.4px;
+    opacity: 0.6;
+    border-radius: 6px;
+    background-color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 16px;
+    margin-right: -3px;
 }
 .magnifier a img {
-  width: 21px;
-  height: 22px;
-  margin: 7px auto;
+    width: 21px;
+    height: 22px;
+    margin: 7px auto;
 }
 .person a img {
-  width: 21px;
-  height: 22px;
-  margin: 6px auto 6px 1px;
+    width: 21px;
+    height: 22px;
+    margin: 6px auto 6px 1px;
 }
 .chaticon a img {
-  width: 33px;
-  height: 25px;
-  margin: 17px auto 7px auto;
+    width: 33px;
+    height: 25px;
+    margin: 17px auto 7px auto;
 }
 .telephone a img {
-  width: 23px;
-  height: 22px;
-  margin: 7px auto;
+    width: 23px;
+    height: 22px;
+    margin: 7px auto;
 }
 .globe a img {
-  width: 27px;
-  height: 24px;
-  margin: 7px auto 7px 2px;
+    width: 27px;
+    height: 24px;
+    margin: 7px auto 7px 2px;
 }
 
 /****************************** computer div ****************************/
 .hero-img .computer-div{
-  padding-right: 0px;
-  padding-left: 0px;
-  width: 1300px;
-  margin-top: 41px;
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 1300px;
+    margin-top: 41px;
 }
 
 .hero-img .computer-img{
-  width: 254px;
-  border-bottom: 1px solid #fff;
-  position: relative;
-  left: -30px;
-  margin-top:42px;
+    width: 254px;
+    border-bottom: 1px solid #fff;
+    position: relative;
+    left: -30px;
+    margin-top: 57px;
+    top: -3px;
 }
 .hero-img .computer-img img{
-  padding-left: 47px;
-  width: 224px;
-  height: 90px;
+    padding-left: 49px;
+    width: 224px;
+    height: 90px;
 }
 .hero-img .computer-div ul{
-  list-style-type: none;
-  padding-left: 48px;
- padding-top: 6px;
+    list-style-type: none;
+    padding-left:28px;
+
+}
+.hero-img .list-home{
+    padding-left: 35px;
+    padding-top: 6px;
 }
 .hero-img .computer-div li a{
-  text-decoration: none;
-  opacity: 0.9;
-  font-size: 16px;
-  font-family: AvenirNext;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.15;
-  letter-spacing: 0.4px;
-  text-align: left;
-  color: #9d9d9d;
+    text-decoration: none;
+    opacity: 0.9;
+    font-size: 16px;
+    font-family: AvenirNext;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #9d9d9d;
 }
 .hero-img .computer-div li a:hover{
-  color:#ffffff;
+    color:#ffffff;
 }
 .hero-img .computer-div .color{
-  color:#ffffff;
+    color:#ffffff;
 }
 .play-logo {
-  display: flex;
-  flex-direction: row-reverse;
-  mix-blend-mode: color-dodge;
-  font-family: AvenirNext;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2;
-  letter-spacing: 0.1px;
-  color: #fff;
-  align-items: flex-end;
-  justify-content: flex-start;
-  padding: 0 6px 18px 23px;
+    display: flex;
+    flex-direction: row-reverse;
+    mix-blend-mode: color-dodge;
+    font-family: AvenirNext;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    color: #fff;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 6px 18px 23px;
 }
 .play-logo p{
-  margin-right: 12px;
-  font-size: 16px;
-  margin-bottom: 2px;
-  letter-spacing: 0.5px;
+    margin-right: 12px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
 }
 .arrow-img {
-  width: 118px;
-  height: 118px;
-  border-radius: 50%;
-  border: 4px solid #fff;
-  align-self: flex-end;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 60px;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
 }
 .arrow-img img {
-  width: 41px;
-  height: 63px;
-  padding-left: 6px;
+    width: 41px;
+    height: 63px;
+    padding-left: 6px;
 }
 
 .logo-header-div .txt{
-  font-family: AvenirNext;
-  color: #9d9d9d;
-  padding-top: 184px;
-  text-align: right;
-  padding-right:37px;
+    font-family: AvenirNext;
+    color: #9d9d9d;
+    padding-top: 7px;
+    text-align: right;
+    padding-right:87px;
 }
 
-
-/* media queries for header */
+/*****************media queries for header ********************************/
 @media only screen and (max-width: 640px) {
-  .hero-img{
-    width:1314px;
-  }
-  .computer-div {
-    display:none;
-  }
-  .logo-header-div{
-    display: none;
-  }
-  .h-list{
-    display:none;
-  }
-  .text-container{
-    display:block;
-  }
+    .hero-img{
+        width:1314px;
+    }
+    .computer-div {
+        display:none;
+    }
+    .logo-header-div{
+        display: none;
+    }
+    .h-list{
+        display:none;
+    }
+    .text-container{
+        display:block;
+    }
 }
-/* header section end  */
+/***************************header section*********************************/
+
+/***************************header section*********************************/
+/*****************************************next section start three red div  ***********************************/
 .empty-div{
     background-color: #fc0606;
     height: 58px;
 }
 
-/* the-three-dives section start  */
+/****************************************** two div section ********************************************/
 
 .the-three-dives {
-    background: #FC0606;
+    background: #54585A;
     position: relative;
 }
 .main-area {
@@ -308,14 +306,14 @@
     position: relative;
 }
 .the-three-dives .two-div1 {
-    background-color: #FC0606;
+    background-color: #54585A;
 }
 .two-div1 {
     padding: 59px 78px 153px 49px;
 }
 .the-three-dives .col4 {
     background-blend-mode: normal, multiply;
-    background:linear-gradient(rgba(103, 101, 101, 0.6), rgba(47, 47, 47, 0.6)), linear-gradient(to bottom, #54585a, #54585a),   url("../assets/handshakingdog.jpg") no-repeat;
+  background: linear-gradient(rgba(84, 88, 90, 0.6), rgba(84, 88, 90, 0.6)), linear-gradient(231deg, rgba(255, 255, 255, 0.5), rgba(84, 88, 90, 0.5)), url(../assets/lady-with-her-dog.jpg);
     background-size: 100%;
     background-position: center;
     height: 391px;
@@ -411,15 +409,46 @@
 .three-dives .two-div-2 a:hover{
     text-decoration: none;
 }
-/* the-three-dives section end  */
-
-/* ctx-section start*/
+.text-stories {
+   float: right;
+   padding-top: 87px;
+    padding-right: 32px;
+}
+.text-stories h4{
+   opacity: 0.6;
+  font-family: AvenirNext;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 33px;
+  text-align: left;
+  color: #ffffff;
+}
+.text-stories p{
+   mix-blend-mode: screen;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.57;
+  letter-spacing: 0.1px;
+  text-align: left;
+  color: #9d9d9d;
+  position: relative;
+  right:40px;
+  padding-top:35px;
+}
+/******************************* two section end ******************/
+/* ctx-section */
 .ctx-images1{
     position: absolute;
     z-index: 54;
-    width: 639px;
-    height: 491px;
-    top: 169px;
+    width: 603px;
+    height: 425px;
+    top: 327px;
     right: 16px;
     margin: 0 auto;
 }
@@ -481,7 +510,7 @@
 
 .ctx-section  .feaured-product-pic .ctx-text{
     width: 100%;
-    margin-top: 86px;
+    margin-top: 73px;
 }
 .ctx-section  .feaured-product-pic .ctx-text p{
     opacity: 0.69;
@@ -506,7 +535,11 @@
     padding-left: 16;
     text-align: center;
     list-style: none;
+
+
+
 }
+
 .ctx-section .ctx-image{
     display: flex;
     flex-direction: row;
@@ -578,32 +611,34 @@
     overflow: hidden;
 }
 /* ctx-section end*/
-
-/* slider section start  */
+/**************** second  slider setting ****************/
+.carousel-indicators {
+  top:-57px;
+}
 .col1 {
-    background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/pub-dog.jpg") no-repeat;
+    background-blend-mode: normal, soft-light, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url("../assets/black-in-white.jpg") no-repeat;;
     background-size: cover;
     height: 435px;
     background-position: center;
 }
 .col2 {
     background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(rgba(159, 168, 172, 0.6), rgba(159, 168, 172, 0.6)),url("../assets/treatmentofdog.jpg") no-repeat;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(rgba(159, 168, 172, 0.6), rgba(159, 168, 172, 0.6)),url("../assets/black-in-white.jpg") no-repeat;
     background-size: cover;
     height: 435px;
     background-position: center;
 }
 .col3 {
-    background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(166, 25, 46, 0.7), rgba(166, 25, 46, 0.7)), linear-gradient(to bottom, #f5515f, #9f041b), url("../assets/Dogs-Watch-TV.jpg") no-repeat;
+    background-blend-mode: normal, soft-light, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url("../assets/black-in-white.jpg") no-repeat;;
     background-size: cover;
     height: 435px;
     background-position: center;
 }
 .col4 {
-    background-blend-mode: normal, multiply;
-    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(rgba(159, 168, 172, 0.6), rgba(159, 168, 172, 0.6)),url("../assets/doglistiningmusic.jpg") no-repeat;
+    background-blend-mode: normal, soft-light, multiply;
+    background: linear-gradient(rgba(84, 88, 90, 0.7), rgba(84, 88, 90, 0.7)), linear-gradient(#9fa8ac, #9fa8ac), linear-gradient(to bottom, rgba(0, 0, 0, 0), #919ba1),url("../assets/black-in-white.jpg") no-repeat;;
     background-size: cover;
     height: 435px;
     background-position: center;
@@ -626,11 +661,15 @@
     padding-top: 39px;
     font-size: 32px;
     letter-spacing: 0.2px;
+    color:#adb1ad;
 }
 .redslider {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.hidden-indicator{
+  display:none;
 }
 .dog-slider {
     font-family: AvenirNext;
@@ -727,6 +766,7 @@
     padding-right: 47px;
     margin-top: 35px;
     margin-bottom: 75px;
+    padding-bottom: 32px;
 }
 .learn-more-link p{
     font-size: 12px;
@@ -807,8 +847,7 @@
 .carousel-indicators .active {
     background-color: red !important;
 }
-
-/* slider section end  */
+/******************************** slider   section end *****************/
 .empty-area{
     height: 115px;
     background-color: #54585A;
@@ -818,7 +857,13 @@
 }
 
 
-/*subscribe section start */
+
+
+
+
+/******************************** footer start *****************/
+
+/*subscribe section*/
 .subscribe-section{
   
 }
@@ -890,7 +935,11 @@ padding-right: 20px;
   background-color: rgba(155, 155, 155, 0.06);
   height: 430px;
 }
-/*subcribe section end */
+/*subcribe section*/
+
+
+
+/******************************** footer start *****************/
 
 
 /* footer area star */
